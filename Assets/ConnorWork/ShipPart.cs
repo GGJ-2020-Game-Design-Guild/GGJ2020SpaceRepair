@@ -6,6 +6,11 @@ public class ShipPart : Interactable
 {
     const float MAX_HEALTH = 100;
     public float health;
+
+    public bool hasItem = false;
+
+    Item requiredItem;
+    Tool requiredTool;
     
     // Start is called before the first frame update
     void Start()
@@ -20,7 +25,11 @@ public class ShipPart : Interactable
     }
 
     override public void interact(PlayerInventory pi) {
-        health = MAX_HEALTH;
+
+        if (pi.item == requiredTool && hasItem)
+        {
+            health = MAX_HEALTH;
+        }
     }
 
     public void damage() {
@@ -29,4 +38,15 @@ public class ShipPart : Interactable
             //something bad
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject == requiredItem)
+        {
+            hasItem = true;
+            Destroy(collision.gameObject);
+        }
+
+    }
+
 }
