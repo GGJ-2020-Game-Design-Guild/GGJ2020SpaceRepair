@@ -46,10 +46,9 @@ public class TypeWriterEffect : MonoBehaviour {
             question = false;
         }
 
-        if (jsonScript.dialogues[currentDio].answer != null)
-        {
-            correctResponse = jsonScript.dialogues[currentDio].answer;
-        }
+        
+        correctResponse = jsonScript.dialogues[currentDio].answer;
+        
 
         StartCoroutine(ShowText());
         AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
@@ -64,30 +63,35 @@ public class TypeWriterEffect : MonoBehaviour {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
+                jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
             else if (Input.GetAxisRaw("NumInput2") > 0 && correctResponse == 2)
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
+                jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
             else if (Input.GetAxisRaw("NumInput3") > 0 && correctResponse == 3)
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
+                jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
             else if (Input.GetAxisRaw("NumInput4") > 0 && correctResponse == 4)
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
+                jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
             else if (Input.GetAxisRaw("NumInput1") > 0 || Input.GetAxisRaw("NumInput2") > 0 || Input.GetAxisRaw("NumInput3") > 0 || Input.GetAxisRaw("NumInput4") > 0)
             {
                 fullText = jsonScript.dialogues[currentDio].incorrectAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
+                jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].incorrectAnswerResponse;
             }
         }
     }
