@@ -13,17 +13,22 @@ public class TypeWriterEffect : MonoBehaviour {
     private bool question = false;
     private int correctResponse;
     private ReadInDialogue jsonScript;
+    private DioTimeline globalDioTimeline;
     public int currentDio = 0;
 
     private void Start()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
+        globalDioTimeline = FindObjectOfType<DioTimeline>();
     }
 
     // Use this for initialization
     private void OnEnable()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
+        globalDioTimeline = FindObjectOfType<DioTimeline>();
+
+        currentDio = globalDioTimeline.globalDio;
 
         currentText = "";
         gameObject.GetComponent<Text>().text = currentText;
@@ -45,11 +50,6 @@ public class TypeWriterEffect : MonoBehaviour {
 
         StartCoroutine(ShowText());
         AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
-    }
-
-    private void OnDisable()
-    {
-        changeDio();
     }
 
     private void Update()
@@ -98,15 +98,4 @@ public class TypeWriterEffect : MonoBehaviour {
 		}
 	}
 
-    void changeDio()
-    {
-        if (currentDio+1 < jsonScript.dialogues.Length)
-        {
-            currentDio = currentDio+1;
-        }
-        else
-        {
-            currentDio = 0;
-        }
-    }
 }
