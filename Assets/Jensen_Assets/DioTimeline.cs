@@ -5,11 +5,13 @@ using UnityEngine;
 public class DioTimeline : MonoBehaviour
 {
     private ReadInDialogue jsonScript;
+    private MarriageMeter marriageMeter;
     public int globalDio = 0;
 
     public void ReadInReady()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
+        marriageMeter = FindObjectOfType<MarriageMeter>();
        // Debug.Log(jsonScript.dialogues.Length);
         Invoke("changeDio", jsonScript.dialogues[globalDio].time);
     }
@@ -21,11 +23,13 @@ public class DioTimeline : MonoBehaviour
         {
             globalDio = globalDio + 1;
             Invoke("changeDio", jsonScript.dialogues[globalDio].time);
+            marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
         }
         else
         {
             globalDio = 0;
             Invoke("changeDio", jsonScript.dialogues[globalDio].time);
+            marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
         }
     }
 }

@@ -12,9 +12,12 @@ public class TypeWriterEffect : MonoBehaviour {
     public AudioClip speech;
     private bool question = false;
     private int correctResponse;
+    private bool pointsAdded = false;
+
     private ReadInDialogue jsonScript;
     private DioTimeline globalDioTimeline;
     private UIPopUp UIPopUp;
+    private MarriageMeter marriageMeter;
     public int currentDio = 0;
 
     private void Start()
@@ -22,6 +25,7 @@ public class TypeWriterEffect : MonoBehaviour {
         jsonScript = FindObjectOfType<ReadInDialogue>();
         globalDioTimeline = FindObjectOfType<DioTimeline>();
         UIPopUp = FindObjectOfType<UIPopUp>();
+        marriageMeter = FindObjectOfType<MarriageMeter>();
     }
 
     // Use this for initialization
@@ -30,8 +34,13 @@ public class TypeWriterEffect : MonoBehaviour {
         jsonScript = FindObjectOfType<ReadInDialogue>();
         globalDioTimeline = FindObjectOfType<DioTimeline>();
         UIPopUp = FindObjectOfType<UIPopUp>();
+        marriageMeter = FindObjectOfType<MarriageMeter>();
 
-        currentDio = globalDioTimeline.globalDio;
+        if (currentDio != globalDioTimeline.globalDio)
+        {
+            currentDio = globalDioTimeline.globalDio;
+            pointsAdded = false;
+        }
 
         currentText = "";
         gameObject.GetComponent<Text>().text = currentText;
@@ -44,6 +53,11 @@ public class TypeWriterEffect : MonoBehaviour {
         else
         {
             question = false;
+            if (pointsAdded == false)
+            {
+                marriageMeter.marriageMeter++;
+                pointsAdded = true;
+            }
         }
 
         
@@ -62,6 +76,10 @@ public class TypeWriterEffect : MonoBehaviour {
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
+
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter + 10;
+                pointsAdded = true;
+
                 StartCoroutine(ShowText());
                 jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
@@ -69,6 +87,10 @@ public class TypeWriterEffect : MonoBehaviour {
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
+
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter + 10;
+                pointsAdded = true;
+
                 StartCoroutine(ShowText());
                 jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
@@ -76,6 +98,10 @@ public class TypeWriterEffect : MonoBehaviour {
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
+
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter + 10;
+                pointsAdded = true;
+
                 StartCoroutine(ShowText());
                 jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
@@ -83,6 +109,10 @@ public class TypeWriterEffect : MonoBehaviour {
             {
                 fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
+
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter + 10;
+                pointsAdded = true;
+
                 StartCoroutine(ShowText());
                 jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].correctAnswerResponse;
             }
@@ -90,6 +120,10 @@ public class TypeWriterEffect : MonoBehaviour {
             {
                 fullText = jsonScript.dialogues[currentDio].incorrectAnswerResponse;
                 question = false;
+
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 10;
+                pointsAdded = true;
+
                 StartCoroutine(ShowText());
                 jsonScript.dialogues[currentDio].text = jsonScript.dialogues[currentDio].incorrectAnswerResponse;
             }
