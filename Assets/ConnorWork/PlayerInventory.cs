@@ -9,6 +9,7 @@ public class PlayerInventory : MonoBehaviour
     string heldItemName;
     public int facing;
     public BoxCollider2D interactCollider;
+    public float throwForce = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -92,6 +93,31 @@ public class PlayerInventory : MonoBehaviour
         }
         item.transform.position = transform.position;
         item.gameObject.SetActive(true);
+        Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+
+        //UP
+        if (facing == 0)
+        {
+            rb.AddForce(new Vector2(0,throwForce));
+        }
+
+        //RIGHT
+        if (facing == 1)
+        {
+            rb.AddForce(new Vector2(throwForce, 0));
+        }
+
+        //DOWN
+        if (facing == 2)
+        {
+            rb.AddForce(new Vector2(0, -throwForce));
+        }
+
+        //LEFT
+        if (facing == 3)
+        {
+            rb.AddForce(new Vector2(-throwForce,0));
+        }
         item = null;
     }
 }
