@@ -646,6 +646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5676918726330344590, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5676918726330344586, guid: a2c87e94407a9b14a89cc4302fa86b39,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -756,5 +761,15 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1557835053}
+    - target: {fileID: 5676918726368567217, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: fullText
+      value: What's My Name? 1. Papyrus   2. Sans 3. Undyne 4. Frisk
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2c87e94407a9b14a89cc4302fa86b39, type: 3}

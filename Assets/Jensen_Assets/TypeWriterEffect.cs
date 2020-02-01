@@ -10,14 +10,56 @@ public class TypeWriterEffect : MonoBehaviour {
 	public string fullText;
 	private string currentText = "";
     public AudioClip speech;
+    private bool question;
+    private int correctResponse;
 
 	// Use this for initialization
     private void OnEnable()
     {
         currentText = "";
         gameObject.GetComponent<Text>().text = currentText;
+        fullText = "What's My Name? \n1.Papyrus 2.Sans\n3.Undyne  4.Frisk";
+        question = true;
+        correctResponse = 2;
         StartCoroutine(ShowText());
         AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
+    }
+
+    private void Update()
+    {
+        if (question)
+        {
+            if (Input.GetAxisRaw("NumInput1") > 0 && correctResponse == 1)
+            {
+                fullText = "Correct!";
+                question = false;
+                StartCoroutine(ShowText());
+            }
+            else if (Input.GetAxisRaw("NumInput2") > 0 && correctResponse == 2)
+            {
+                fullText = "Correct!";
+                question = false;
+                StartCoroutine(ShowText());
+            }
+            else if (Input.GetAxisRaw("NumInput3") > 0 && correctResponse == 3)
+            {
+                fullText = "Correct!";
+                question = false;
+                StartCoroutine(ShowText());
+            }
+            else if (Input.GetAxisRaw("NumInput4") > 0 && correctResponse == 4)
+            {
+                fullText = "Correct!";
+                question = false;
+                StartCoroutine(ShowText());
+            }
+            else if (Input.GetAxisRaw("NumInput1") > 0 || Input.GetAxisRaw("NumInput2") > 0 || Input.GetAxisRaw("NumInput3") > 0 || Input.GetAxisRaw("NumInput4") > 0)
+            {
+                fullText = "Wrong!";
+                question = false;
+                StartCoroutine(ShowText());
+            }
+        }
     }
 
     IEnumerator ShowText(){
