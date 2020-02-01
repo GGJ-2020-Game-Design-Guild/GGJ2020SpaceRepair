@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - DioTrigger
+  - Item1
+  - Item2
   layers:
   - Default
   - TransparentFX
