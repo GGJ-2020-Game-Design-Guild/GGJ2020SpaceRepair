@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
         
     }
 
-    public void interact(PlayerInventory pi) {
+    virtual public void interact(PlayerInventory pi) {
 
     }
 }
