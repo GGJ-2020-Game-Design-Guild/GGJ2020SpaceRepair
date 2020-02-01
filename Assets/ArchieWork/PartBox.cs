@@ -5,11 +5,12 @@ using UnityEngine;
 public class PartBox : Interactable
 {
     public Item item;
-    public Texture2D sprite;
+    public Sprite sprite;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
         
     }
 
@@ -25,6 +26,15 @@ public class PartBox : Interactable
         {
             pi.setItem(item);
             gameObject.SetActive(false);
+            Debug.Log($"Obtained Part Box: Item {item.name}");
         }
+
+        else
+            Debug.Log($"Item already in inventory");
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)        
+    {
+        Debug.Log("Hello");
     }
 }
