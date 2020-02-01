@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ColliderTrigger : MonoBehaviour
 {
+    public Interactable interactable;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,17 @@ public class ColliderTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.SendMessage("interact", GetComponentInParent<PlayerInventory>());
+        Interactable i = collision.GetComponent<Interactable>();
+        if (i) {
+            interactable = collision.GetComponent<Interactable>();
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (interactable.GetComponent<Collider2D>().Equals(collision)) {
+            interactable = null;
+        }
     }
 }
