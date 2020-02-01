@@ -19,17 +19,20 @@ public class DioTimeline : MonoBehaviour
 
     void changeDio()
     {
-        if (globalDio + 1 < jsonScript.dialogues.Length)
+        if (marriageMeter.marriageMeter > 0)
         {
-            globalDio = globalDio + 1;
-            Invoke("changeDio", jsonScript.dialogues[globalDio].time);
-            marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
-        }
-        else
-        {
-            globalDio = 0;
-            Invoke("changeDio", jsonScript.dialogues[globalDio].time);
-            marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+            if (globalDio + 1 < jsonScript.dialogues.Length)
+            {
+                globalDio = globalDio + 1;
+                Invoke("changeDio", jsonScript.dialogues[globalDio].time);
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+            }
+            else
+            {
+                globalDio = 0;
+                Invoke("changeDio", jsonScript.dialogues[globalDio].time);
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+            }
         }
     }
 }
