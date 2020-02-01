@@ -13,7 +13,6 @@ public class PlayerInventory : MonoBehaviour
     void Start()
     {
         facing = 0;
-        interactCollider.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,6 +38,30 @@ public class PlayerInventory : MonoBehaviour
             facing = 2;
         }
 
+        //UP
+        if (facing == 0)
+        {
+            interactCollider.transform.localPosition = new Vector3(0, 1, 0);
+        }
+
+        //RIGHT
+        if (facing == 1)
+        {
+            interactCollider.transform.localPosition = new Vector3(1, 0, 0);
+        }
+
+        //DOWN
+        if (facing == 2)
+        {
+            interactCollider.transform.localPosition = new Vector3(0, -1, 0);
+        }
+
+        //LEFT
+        if (facing == 3)
+        {
+            interactCollider.transform.localPosition = new Vector3(-1, 0, 0);
+        }
+
         if (Input.GetButtonDown("Jump")) {
             interact();
         }
@@ -51,31 +74,9 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public void interact() {
-        interactCollider.transform.localPosition = new Vector3(0, 0, 0);
-        interactCollider.gameObject.SetActive(true);
-        //UP
-        if (facing == 0) {
-            interactCollider.transform.localPosition = new Vector3(0, 32, 0);
-        }
+       
 
-        //RIGHT
-        if (facing == 1)
-        {
-            interactCollider.transform.localPosition = new Vector3(32, 0, 0);
-        }
+        interactCollider.GetComponent<ColliderTrigger>().interactable.gameObject.SendMessage("interact",this );
 
-        //DOWN
-        if (facing == 2)
-        {
-            interactCollider.transform.localPosition = new Vector3(0, -32, 0);
-        }
-
-        //LEFT
-        if (facing == 3)
-        {
-            interactCollider.transform.localPosition = new Vector3(-32, 0, 0);
-        }
-
-        interactCollider.gameObject.SetActive(false);
     }
 }
