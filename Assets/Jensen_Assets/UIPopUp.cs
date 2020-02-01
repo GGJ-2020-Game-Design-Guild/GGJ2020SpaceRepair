@@ -5,10 +5,20 @@ using UnityEngine;
 public class UIPopUp : MonoBehaviour
 {
     public GameObject playerCanvas;
+    public bool isItem = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "DioTrigger")
+        if (collision.gameObject.tag == "WalkTalk")
+        {
+            isItem = true;
+        }
+        else
+        {
+            isItem = false;
+        }
+
+        if (collision.gameObject.tag == "DioTrigger" || collision.gameObject.tag == "WalkTalk")
         {
             playerCanvas.SetActive(true);
         }
@@ -16,7 +26,7 @@ public class UIPopUp : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "DioTrigger")
+        if (collision.gameObject.tag == "DioTrigger" || collision.gameObject.tag == "WalkTalk")
         {
             playerCanvas.SetActive(false);
         }

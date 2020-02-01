@@ -14,12 +14,14 @@ public class TypeWriterEffect : MonoBehaviour {
     private int correctResponse;
     private ReadInDialogue jsonScript;
     private DioTimeline globalDioTimeline;
+    private UIPopUp UIPopUp;
     public int currentDio = 0;
 
     private void Start()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
         globalDioTimeline = FindObjectOfType<DioTimeline>();
+        UIPopUp = FindObjectOfType<UIPopUp>();
     }
 
     // Use this for initialization
@@ -27,6 +29,7 @@ public class TypeWriterEffect : MonoBehaviour {
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
         globalDioTimeline = FindObjectOfType<DioTimeline>();
+        UIPopUp = FindObjectOfType<UIPopUp>();
 
         currentDio = globalDioTimeline.globalDio;
 
@@ -54,7 +57,7 @@ public class TypeWriterEffect : MonoBehaviour {
 
     private void Update()
     {
-        if (question)
+        if (question && UIPopUp.isItem == false)
         {
             if (Input.GetAxisRaw("NumInput1") > 0 && correctResponse == 1)
             {
