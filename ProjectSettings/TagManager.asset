@@ -10,6 +10,11 @@ TagManager:
   - Item4
   - Item5
   - WalkTalk
+  - Tool1
+  - Tool2
+  - Tool3
+  - Tool4
+  - Tool5
   layers:
   - Default
   - TransparentFX
