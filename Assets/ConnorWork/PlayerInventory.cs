@@ -13,6 +13,7 @@ public class PlayerInventory : MonoBehaviour
     void Start()
     {
         facing = 0;
+        interactCollider.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -50,6 +51,8 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public void interact() {
+        interactCollider.transform.localPosition = new Vector3(0, 0, 0);
+        interactCollider.gameObject.SetActive(true);
         //UP
         if (facing == 0) {
             interactCollider.transform.localPosition = new Vector3(0, 32, 0);
@@ -72,5 +75,7 @@ public class PlayerInventory : MonoBehaviour
         {
             interactCollider.transform.localPosition = new Vector3(-32, 0, 0);
         }
+
+        interactCollider.gameObject.SetActive(false);
     }
 }
