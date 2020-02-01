@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PartBox : Interactable
 {
-    public Item item;
     public Sprite sprite;
+    public Item pbItem;
 
     // Start is called before the first frame update
     void Start()
@@ -20,21 +20,18 @@ public class PartBox : Interactable
         
     }
 
-   override public void interact(PlayerInventory pi)
+    override public void interact(PlayerInventory pi)
     {
         if (pi.item == null)
         {
-            pi.setItem(item);
+            pi.setItem(pbItem);
             gameObject.SetActive(false);
-            Debug.Log($"Obtained Part Box: Item {item.name}");
+            Debug.Log($"Obtained Part Box: Item {this.name}");
         }
 
         else
             Debug.Log($"Item already in inventory");
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)        
-    {
-        Debug.Log("Hello");
+        Debug.Log($"{pi.item}");
     }
 }
