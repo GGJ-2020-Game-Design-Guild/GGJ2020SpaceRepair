@@ -1,15 +1,16 @@
 {
-	{
-		"type":"statement"
-		"text":"I cannot believe you jumped to hyperspace without me!"
-	}
-	{
-		"type":"question"
-		"text":"When did we first start dating? Huh?!?"
-	}
-	{
-		"type":"statement"
-		"text":"I love how beautiful it was when we got married. It was %Date%, the sun was shining, the breeze was cool."
-	}
+	"dialogue": [
+		{
+			"type":"statement",
+			"text":"I cannot believe you jumped to hyperspace without me!"
+		},
+		{
+			"type":"question",
+			"text":"When did we first start dating? Huh?!?"
+		},
+		{
+			"type":"statement",
+			"text":"I love how beautiful it was when we got married. It was %Date%, the sun was shining, the breeze was cool."
+		}
+	]
 }
-		

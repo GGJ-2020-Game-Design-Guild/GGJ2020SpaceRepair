@@ -1,21 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Dialogue : MonoBehaviour
+[System.Serializable]
+public class Dialogue
 {
-    public string dialogue;
-    public string type;
-    public string answerA, answerB, answerC, answerD;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public Dialogue() {
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string type;
+    public string text;
+    public string incorrectAnswerResponse;
+    public string correctAnswerResponse;
+    public float time;
+    public int answer;
+    //public string answerA, answerB, answerC, answerD;
+    
+    
 }

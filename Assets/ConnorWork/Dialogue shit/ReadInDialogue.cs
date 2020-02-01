@@ -9,7 +9,9 @@ public class ReadInDialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dialogues = JsonUtility.FromJson<Dialogue[]>(json.text);
+        DialogueRead dr = JsonUtility.FromJson<DialogueRead>(json.text);
+        dialogues = dr.dialogue;
+        Debug.Log(dialogues.Length);
     }
 
     // Update is called once per frame
@@ -18,3 +20,5 @@ public class ReadInDialogue : MonoBehaviour
         
     }
 }
+
+
