@@ -28,11 +28,16 @@ public class PlayerMovement : MonoBehaviour
 
         playerSprite = gameObject.GetComponent<SpriteRenderer>();
 
+
     }
 
     void FixedUpdate()
     {
         //MOVEMENT SCRIPTING
+
+        float horMovement = 0;
+        float vertMovement = 0;
+
 
         //If axis for horizontal
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
@@ -46,20 +51,38 @@ public class PlayerMovement : MonoBehaviour
             {
                 playerSprite.flipX = false;
             }
+
         }
 
-        //If axis for vertical
-        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
+        if (Input.GetAxisRaw("Horizontal") > 0.5f)
         {
-          
+            horMovement = 1 * speed;
         }
 
-        //Floats for the speed of the movement based on the axis values
-        float horMovement = Input.GetAxis("Horizontal") * speed;
-        float vertMovement = Input.GetAxis("Vertical") * speed;
+        if (Input.GetAxisRaw("Horizontal") < -0.5f)
+        {
+            horMovement = -1 * speed;
+        }
+
+        if (Input.GetAxisRaw("Vertical") > 0.5f)
+        {
+            vertMovement = 1 * speed;
+        }
+        
+        if (Input.GetAxisRaw("Vertical") < -0.5f)
+        {
+            vertMovement = -1 * speed;
+        }
 
         //set the rigidBody velocity to those values for x and y, and z to 0
         myRigidbody.velocity = new Vector3(horMovement, vertMovement, 0);
+
+        if (Input.GetAxisRaw("Vertical") == 0f && Input.GetAxisRaw("Horizontal") == 0f)
+        {
+            myRigidbody.velocity = Vector3.zero;
+            myRigidbody.angularVelocity = 0;
+
+        }
 
         /*
 
