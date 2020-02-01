@@ -259,6 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0aaadf10fe58b41bcc15351c78bc09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactable: {fileID: 0}
 --- !u!1 &219544262 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4015772010298073690, guid: 0e8ce25654badd34bb124c64d8bda633,
@@ -791,7 +792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96efca965de2a9b4995b07e66a4bd1bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 1932121776}
+  item: {fileID: 0}
   facing: 0
   interactCollider: {fileID: 182902329}
 --- !u!114 &2123407198

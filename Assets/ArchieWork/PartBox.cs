@@ -31,7 +31,5 @@ public class PartBox : Interactable
 
         else
             Debug.Log($"Item already in inventory");
-
-        Debug.Log($"{pi.item}");
     }
 }

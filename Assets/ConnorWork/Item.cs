@@ -19,10 +19,16 @@ public class Item : Interactable
     }
 
     override public void interact(PlayerInventory pi) {
-        if (pi.item == null) {
+        if (pi.item == null)
+        {
             pi.setItem(this);
             gameObject.SetActive(false);
+
+            Debug.Log($"Obtained Part Box: Item {this.name}");
         }
+
+        else
+            Debug.Log("Cannot pick up another object...");
     }
 
 }
