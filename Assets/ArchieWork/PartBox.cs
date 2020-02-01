@@ -24,7 +24,8 @@ public class PartBox : Interactable
     {
         if (pi.item == null)
         {
-            pi.setItem(pbItem);
+            pi.setItem(Instantiate(pbItem, new Vector3(0, 0, 0), Quaternion.identity));
+            pi.item.gameObject.SetActive(false);
             //gameObject.SetActive(false);
             Debug.Log($"Obtained Part Box: Item {this.name}");
         }

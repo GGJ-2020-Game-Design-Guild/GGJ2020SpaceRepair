@@ -38,6 +38,7 @@ public class PlayerInventory : MonoBehaviour
             facing = 2;
         }
 
+
         //UP
         if (facing == 0)
         {
@@ -65,6 +66,10 @@ public class PlayerInventory : MonoBehaviour
         if (Input.GetButtonDown("Jump")) {
             interact();
         }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            drop();
+        }
     }
 
     public void setItem(Item i) {
@@ -79,5 +84,14 @@ public class PlayerInventory : MonoBehaviour
         if(i != null)
             i.gameObject.SendMessage("interact",this );
 
+    }
+
+    public void drop() {
+        if (item == null) {
+            return;
+        }
+        item.transform.position = transform.position;
+        item.gameObject.SetActive(true);
+        item = null;
     }
 }
