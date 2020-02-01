@@ -4,25 +4,52 @@ using UnityEngine.UI;
 
 public class TypeWriterEffect : MonoBehaviour {
 
-    //Code help from https://www.youtube.com/watch?time_continue=153&v=1qbjmb_1hV4&feature=emb_logo
+    //Code help for text appear code from https://www.youtube.com/watch?time_continue=153&v=1qbjmb_1hV4&feature=emb_logo
 
     public float delay = 0.1f;
 	public string fullText;
 	private string currentText = "";
     public AudioClip speech;
-    private bool question;
+    private bool question = false;
     private int correctResponse;
+    private ReadInDialogue jsonScript;
+    public int currentDio = 0;
 
-	// Use this for initialization
+    private void Start()
+    {
+        jsonScript = FindObjectOfType<ReadInDialogue>();
+    }
+
+    // Use this for initialization
     private void OnEnable()
     {
+        jsonScript = FindObjectOfType<ReadInDialogue>();
+
         currentText = "";
         gameObject.GetComponent<Text>().text = currentText;
-        fullText = "What's My Name? \n1.Papyrus 2.Sans\n3.Undyne  4.Frisk";
-        question = true;
-        correctResponse = 2;
+        fullText = jsonScript.dialogues[currentDio].text;
+
+        if (jsonScript.dialogues[currentDio].type == "question")
+        {
+            question = true;
+        }
+        else
+        {
+            question = false;
+        }
+
+        if (jsonScript.dialogues[currentDio].answer != null)
+        {
+            correctResponse = jsonScript.dialogues[currentDio].answer;
+        }
+
         StartCoroutine(ShowText());
         AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
+    }
+
+    private void OnDisable()
+    {
+        changeDio();
     }
 
     private void Update()
@@ -31,31 +58,31 @@ public class TypeWriterEffect : MonoBehaviour {
         {
             if (Input.GetAxisRaw("NumInput1") > 0 && correctResponse == 1)
             {
-                fullText = "Correct!";
+                fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
             }
             else if (Input.GetAxisRaw("NumInput2") > 0 && correctResponse == 2)
             {
-                fullText = "Correct!";
+                fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
             }
             else if (Input.GetAxisRaw("NumInput3") > 0 && correctResponse == 3)
             {
-                fullText = "Correct!";
+                fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
             }
             else if (Input.GetAxisRaw("NumInput4") > 0 && correctResponse == 4)
             {
-                fullText = "Correct!";
+                fullText = jsonScript.dialogues[currentDio].correctAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
             }
             else if (Input.GetAxisRaw("NumInput1") > 0 || Input.GetAxisRaw("NumInput2") > 0 || Input.GetAxisRaw("NumInput3") > 0 || Input.GetAxisRaw("NumInput4") > 0)
             {
-                fullText = "Wrong!";
+                fullText = jsonScript.dialogues[currentDio].incorrectAnswerResponse;
                 question = false;
                 StartCoroutine(ShowText());
             }
@@ -70,4 +97,16 @@ public class TypeWriterEffect : MonoBehaviour {
 			yield return new WaitForSeconds(delay);
 		}
 	}
+
+    void changeDio()
+    {
+        if (currentDio+1 < jsonScript.dialogues.Length)
+        {
+            currentDio = currentDio+1;
+        }
+        else
+        {
+            currentDio = 0;
+        }
+    }
 }

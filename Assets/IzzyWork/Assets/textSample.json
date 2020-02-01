@@ -2,15 +2,22 @@
 	"dialogue": [
 		{
 			"type":"statement",
-			"text":"I cannot believe you jumped to hyperspace without me!"
+      "text": "I cannot believe you jumped to hyperspace without me!",
+      "time":  4
 		},
-		{
-			"type":"question",
-			"text":"When did we first start dating? Huh?!?"
-		},
-		{
-			"type":"statement",
-			"text":"I love how beautiful it was when we got married. It was %Date%, the sun was shining, the breeze was cool."
-		}
+    {
+      "type": "question",
+      "text": "When did we first start dating? Huh?!?\n1. Last December  2. Last January\n3. This June  4. Two Weeks Ago",
+      "incorrectAnswerResponse": "I can't believe you forgot!!!",
+      "correctAnswerResponse": "You Remembered! <3",
+      "answer": 1,
+      "time": 10
+
+    },
+    {
+      "type": "statement",
+      "text": "I love how beautiful it was when we got married. It was %Date%, the sun was shining, the breeze was cool.",
+      "time": 4
+    }
 	]
 }

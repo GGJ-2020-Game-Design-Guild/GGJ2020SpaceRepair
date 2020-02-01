@@ -12,8 +12,8 @@ public class Dialogue
     public string text;
     public string incorrectAnswerResponse;
     public string correctAnswerResponse;
-    public float time;
     public int answer;
+    public float time;
     //public string answerA, answerB, answerC, answerD;
     
     

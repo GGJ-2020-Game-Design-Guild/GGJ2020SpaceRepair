@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReadInDialogue : MonoBehaviour
 {
-    Dialogue[] dialogues;
+    public Dialogue[] dialogues;
     public TextAsset json;
     // Start is called before the first frame update
     void Start()
