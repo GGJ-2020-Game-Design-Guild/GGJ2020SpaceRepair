@@ -28,8 +28,8 @@ public class ShipEventManager : MonoBehaviour
 
     public void damageSelection()
     {
-        Debug.Log(shipMachinery[Random.Range(0, shipMachinery.Count)]);
-        Debug.Log(shipParts[Random.Range(0, shipParts.Count)]);
-        Debug.Log(tools[Random.Range(0, tools.Count)]);
+       // Debug.Log(shipMachinery[Random.Range(0, shipMachinery.Count)]);
+      //  Debug.Log(shipParts[Random.Range(0, shipParts.Count)]);
+      //  Debug.Log(tools[Random.Range(0, tools.Count)]);
     }
 }
