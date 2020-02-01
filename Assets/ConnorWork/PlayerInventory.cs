@@ -74,9 +74,10 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public void interact() {
-       
 
-        interactCollider.GetComponent<ColliderTrigger>().interactable.gameObject.SendMessage("interact",this );
+        Interactable i = interactCollider.GetComponent<ColliderTrigger>().interactable;
+        if(i != null)
+            i.gameObject.SendMessage("interact",this );
 
     }
 }

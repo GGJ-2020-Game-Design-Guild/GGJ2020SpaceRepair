@@ -25,7 +25,7 @@ public class PartBox : Interactable
         if (pi.item == null)
         {
             pi.setItem(pbItem);
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
             Debug.Log($"Obtained Part Box: Item {this.name}");
         }
 
