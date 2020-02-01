@@ -9,6 +9,7 @@ public class TypeWriterEffect : MonoBehaviour {
     public float delay = 0.1f;
 	public string fullText;
 	private string currentText = "";
+    public AudioClip speech;
 
 	// Use this for initialization
     private void OnEnable()
@@ -16,6 +17,7 @@ public class TypeWriterEffect : MonoBehaviour {
         currentText = "";
         gameObject.GetComponent<Text>().text = currentText;
         StartCoroutine(ShowText());
+        AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
     }
 
     IEnumerator ShowText(){
