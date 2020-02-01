@@ -19,7 +19,7 @@ public class ShipPart : Interactable
         
     }
 
-    public void interact(PlayerInventory pi) {
+    override public void interact(PlayerInventory pi) {
         health = MAX_HEALTH;
     }
 

@@ -18,7 +18,7 @@ public class Item : Interactable
         
     }
 
-    public void interact(PlayerInventory pi) {
+    override public void interact(PlayerInventory pi) {
         if (pi.item == null) {
             pi.setItem(this);
             gameObject.SetActive(false);

@@ -8,6 +8,7 @@ public class PlayerInventory : MonoBehaviour
     Texture2D heldItemSprite;
     string heldItemName;
     public int facing;
+    public BoxCollider2D interactCollider;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,8 +38,8 @@ public class PlayerInventory : MonoBehaviour
             facing = 2;
         }
 
-        if (Input.GetButtonDown("")) {
-
+        if (Input.GetButtonDown("Jump")) {
+            interact();
         }
     }
 
@@ -46,5 +47,30 @@ public class PlayerInventory : MonoBehaviour
         item = i;
         heldItemSprite = i.sprite;
         heldItemName = i.name;
+    }
+
+    public void interact() {
+        //UP
+        if (facing == 0) {
+            interactCollider.transform.localPosition = new Vector3(0, 32, 0);
+        }
+
+        //RIGHT
+        if (facing == 1)
+        {
+            interactCollider.transform.localPosition = new Vector3(32, 0, 0);
+        }
+
+        //DOWN
+        if (facing == 2)
+        {
+            interactCollider.transform.localPosition = new Vector3(0, -32, 0);
+        }
+
+        //LEFT
+        if (facing == 3)
+        {
+            interactCollider.transform.localPosition = new Vector3(-32, 0, 0);
+        }
     }
 }
