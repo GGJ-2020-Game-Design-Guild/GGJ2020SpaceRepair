@@ -10,6 +10,10 @@ public class Dialogue
 
     public string type;
     public string text;
+    public string incorrectAnswerResponse;
+    public string correctAnswerResponse;
+    public float time;
+    public int answer;
     //public string answerA, answerB, answerC, answerD;
     
     
