@@ -30,14 +30,14 @@ public class DioTimeline : MonoBehaviour
             {
                 globalDio = globalDio + 1;
                 Invoke("changeDio", jsonScript.dialogues[globalDio].time);
-                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 5;
                 AudioSource.PlayClipAtPoint(newM, FindObjectOfType<Camera>().transform.position, 2.0f);
             }
             else
             {
                 globalDio = 0;
                 Invoke("changeDio", jsonScript.dialogues[globalDio].time);
-                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter - 5;
             }
         }
     }

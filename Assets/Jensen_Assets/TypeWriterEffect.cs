@@ -123,7 +123,7 @@ public class TypeWriterEffect : MonoBehaviour {
             question = false;
             if (pointsAdded == false)
             {
-                marriageMeter.marriageMeter++;
+                marriageMeter.marriageMeter = marriageMeter.marriageMeter + 5;
                 pointsAdded = true;
             }
         }
