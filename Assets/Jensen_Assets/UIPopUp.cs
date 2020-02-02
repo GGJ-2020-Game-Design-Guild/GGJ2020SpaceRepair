@@ -9,9 +9,16 @@ public class UIPopUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "WalkTalk")
+        if (collision.gameObject.transform.parent)
         {
-            isItem = true;
+            if (collision.gameObject.transform.parent.gameObject.tag == "WalkTalk")
+            {
+                isItem = true;
+            }
+            else
+            {
+                isItem = false;
+            }
         }
         else
         {

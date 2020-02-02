@@ -7,6 +7,7 @@ public class DioTimeline : MonoBehaviour
     private ReadInDialogue jsonScript;
     private MarriageMeter marriageMeter;
     public int globalDio = 0;
+    public AudioClip newM;
 
     public void ReadInReady()
     {
@@ -26,6 +27,7 @@ public class DioTimeline : MonoBehaviour
                 globalDio = globalDio + 1;
                 Invoke("changeDio", jsonScript.dialogues[globalDio].time);
                 marriageMeter.marriageMeter = marriageMeter.marriageMeter - 1;
+                AudioSource.PlayClipAtPoint(newM, FindObjectOfType<Camera>().transform.position, 2.0f);
             }
             else
             {
