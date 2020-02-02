@@ -12,7 +12,7 @@ public class ButtonCode : MonoBehaviour
     // Function that starts the game when you hit the play button.
     public void OpenGame()
     {
-        SceneManager.LoadSceneAsync("CollinTargetScene");
+        SceneManager.LoadSceneAsync("MainShip");
     }
 
     // Function that quits the game when you hit the quit button.
