@@ -1,229 +1,223 @@
 fileFormatVersion: 2
-guid: 9497f9e8539da1c48ac4b9185cd841fc
+guid: 8ed34766a2e57614da7e7b1be22b53eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5167181608317686219
-    second: Tileset_gamejam_spritesheetlayout_0
+      213: 4925356889814931502
+    second: endery tileset_0
   - first:
-      213: -2156901489414719678
-    second: Tileset_gamejam_spritesheetlayout_1
+      213: 4368354453991679110
+    second: endery tileset_1
   - first:
-      213: -7909371094957091716
-    second: Tileset_gamejam_spritesheetlayout_2
+      213: -502082525663172911
+    second: endery tileset_2
   - first:
-      213: -2890016854261321707
-    second: Tileset_gamejam_spritesheetlayout_3
+      213: 3606945435795161609
+    second: endery tileset_3
   - first:
-      213: 1304668893371834102
-    second: Tileset_gamejam_spritesheetlayout_4
+      213: 7853248971323600985
+    second: endery tileset_4
   - first:
-      213: -4312982317072618004
-    second: Tileset_gamejam_spritesheetlayout_5
+      213: -8366379364926976717
+    second: endery tileset_5
   - first:
-      213: -549762334203684081
-    second: Tileset_gamejam_spritesheetlayout_6
+      213: -6093576275599763462
+    second: endery tileset_6
   - first:
-      213: 3043602816383341637
-    second: Tileset_gamejam_spritesheetlayout_7
+      213: -4917108380394747280
+    second: endery tileset_7
   - first:
-      213: -5031441523080354475
-    second: Tileset_gamejam_spritesheetlayout_8
+      213: -8954157262203948931
+    second: endery tileset_8
   - first:
-      213: 4397217495886548724
-    second: Tileset_gamejam_spritesheetlayout_9
+      213: -2143444600912208838
+    second: endery tileset_9
   - first:
-      213: -2139290152858159701
-    second: Tileset_gamejam_spritesheetlayout_10
+      213: 5519058175243028373
+    second: endery tileset_10
   - first:
-      213: -5264200602536614437
-    second: Tileset_gamejam_spritesheetlayout_11
+      213: -300082462842331984
+    second: endery tileset_11
   - first:
-      213: 8395490540804812173
-    second: Tileset_gamejam_spritesheetlayout_12
+      213: 1367973565918678917
+    second: endery tileset_12
   - first:
-      213: 5165030171329653183
-    second: Tileset_gamejam_spritesheetlayout_13
+      213: -3586305663776038874
+    second: endery tileset_13
   - first:
-      213: 478477914201353155
-    second: Tileset_gamejam_spritesheetlayout_14
+      213: 8022903728947956218
+    second: endery tileset_14
   - first:
-      213: 8902485117083877298
-    second: Tileset_gamejam_spritesheetlayout_15
+      213: 1190468898993426103
+    second: endery tileset_15
   - first:
-      213: 7704736535529517343
-    second: Tileset_gamejam_spritesheetlayout_16
+      213: -7381345800566757042
+    second: endery tileset_16
   - first:
-      213: -5501136844851332932
-    second: Tileset_gamejam_spritesheetlayout_17
+      213: -6730676413624147807
+    second: endery tileset_17
   - first:
-      213: 1773738336045366028
-    second: Tileset_gamejam_spritesheetlayout_18
+      213: -2575961531115781924
+    second: endery tileset_18
   - first:
-      213: -5301357996280140217
-    second: Tileset_gamejam_spritesheetlayout_19
+      213: -3487123979312240492
+    second: endery tileset_19
   - first:
-      213: 7155506682439710923
-    second: Tileset_gamejam_spritesheetlayout_20
+      213: 4341878240047558845
+    second: endery tileset_20
   - first:
-      213: 5974302544957548552
-    second: Tileset_gamejam_spritesheetlayout_21
+      213: -6344078158646228178
+    second: endery tileset_21
   - first:
-      213: 1247606402418219817
-    second: Tileset_gamejam_spritesheetlayout_22
+      213: -2528082129610065952
+    second: endery tileset_22
   - first:
-      213: 7444711471670390186
-    second: Tileset_gamejam_spritesheetlayout_23
+      213: -56781187727024312
+    second: endery tileset_23
   - first:
-      213: -6683435405838269502
-    second: Tileset_gamejam_spritesheetlayout_24
+      213: -4859774660551639749
+    second: endery tileset_24
   - first:
-      213: 6429657509751112869
-    second: Tileset_gamejam_spritesheetlayout_25
+      213: 5092942348716477504
+    second: endery tileset_25
   - first:
-      213: -3957235833051220470
-    second: Tileset_gamejam_spritesheetlayout_26
+      213: 181792692764212104
+    second: endery tileset_26
   - first:
-      213: -4918792349995651876
-    second: Tileset_gamejam_spritesheetlayout_27
+      213: -8135060791261736771
+    second: endery tileset_27
   - first:
-      213: -3544958560732832499
-    second: Tileset_gamejam_spritesheetlayout_28
+      213: 745436142857285330
+    second: endery tileset_28
   - first:
-      213: -1764088265843469666
-    second: Tileset_gamejam_spritesheetlayout_29
+      213: 3277691512877974753
+    second: endery tileset_29
   - first:
-      213: 6746972103926527262
-    second: Tileset_gamejam_spritesheetlayout_30
+      213: 4120954205249957607
+    second: endery tileset_30
   - first:
-      213: -2154690604292145039
-    second: Tileset_gamejam_spritesheetlayout_31
+      213: -6446715767149142949
+    second: endery tileset_31
   - first:
-      213: 9073816843296302902
-    second: Tileset_gamejam_spritesheetlayout_32
+      213: 6856262059136824736
+    second: endery tileset_32
   - first:
-      213: -5606215872087813877
-    second: Tileset_gamejam_spritesheetlayout_33
+      213: 4490118348172928337
+    second: endery tileset_33
   - first:
-      213: -5467786891555764380
-    second: Tileset_gamejam_spritesheetlayout_34
+      213: 5021588199288391502
+    second: endery tileset_34
   - first:
-      213: 8250094435742026586
-    second: Tileset_gamejam_spritesheetlayout_35
+      213: 4126685557720831012
+    second: endery tileset_35
   - first:
-      213: 940415883599748735
-    second: Tileset_gamejam_spritesheetlayout_36
+      213: 1656260535187392339
+    second: endery tileset_36
   - first:
-      213: 13716059260013028
-    second: Tileset_gamejam_spritesheetlayout_37
+      213: 2478911888966937267
+    second: endery tileset_37
   - first:
-      213: -6322449145751604311
-    second: Tileset_gamejam_spritesheetlayout_38
+      213: -8169244526123218601
+    second: endery tileset_38
   - first:
-      213: 7904607513313305593
-    second: Tileset_gamejam_spritesheetlayout_39
+      213: 8246639064605273380
+    second: endery tileset_39
   - first:
-      213: -995309100584074735
-    second: Tileset_gamejam_spritesheetlayout_40
+      213: 6454089162589216097
+    second: endery tileset_40
   - first:
-      213: 148478872355441613
-    second: Tileset_gamejam_spritesheetlayout_41
+      213: 8253097506147135401
+    second: endery tileset_41
   - first:
-      213: 96219369213074762
-    second: Tileset_gamejam_spritesheetlayout_42
+      213: -5577649254687311442
+    second: endery tileset_42
   - first:
-      213: 1374736345721514620
-    second: Tileset_gamejam_spritesheetlayout_43
+      213: 6552800648264074318
+    second: endery tileset_43
   - first:
-      213: -6328251347635625274
-    second: Tileset_gamejam_spritesheetlayout_44
+      213: -7163292850396546086
+    second: endery tileset_44
   - first:
-      213: 2493840549631297308
-    second: Tileset_gamejam_spritesheetlayout_45
+      213: -8304091435418731792
+    second: endery tileset_45
   - first:
-      213: 7153709010988610592
-    second: Tileset_gamejam_spritesheetlayout_46
+      213: -1253803604174716141
+    second: endery tileset_46
   - first:
-      213: 3064877509448268563
-    second: Tileset_gamejam_spritesheetlayout_47
+      213: -1791564235697220066
+    second: endery tileset_47
   - first:
-      213: -5060807345996704331
-    second: Tileset_gamejam_spritesheetlayout_48
+      213: -7083723612543345919
+    second: endery tileset_48
   - first:
-      213: 5079434239349803510
-    second: Tileset_gamejam_spritesheetlayout_49
+      213: 7282213771822486778
+    second: endery tileset_49
   - first:
-      213: 473994536076459290
-    second: Tileset_gamejam_spritesheetlayout_50
+      213: -3673467477208851192
+    second: endery tileset_50
   - first:
-      213: 5941190875578030536
-    second: Tileset_gamejam_spritesheetlayout_51
+      213: -8855834672517662102
+    second: endery tileset_51
   - first:
-      213: 82684903868338401
-    second: Tileset_gamejam_spritesheetlayout_52
+      213: 2524673978663075936
+    second: endery tileset_52
   - first:
-      213: 5519904900868464191
-    second: Tileset_gamejam_spritesheetlayout_53
+      213: 4727537955710789569
+    second: endery tileset_53
   - first:
-      213: -3020837980943224141
-    second: Tileset_gamejam_spritesheetlayout_54
+      213: 4640372525209727308
+    second: endery tileset_54
   - first:
-      213: -126667257359193356
-    second: Tileset_gamejam_spritesheetlayout_55
+      213: -1748538620995535185
+    second: endery tileset_55
   - first:
-      213: 5964267134149229116
-    second: Tileset_gamejam_spritesheetlayout_56
+      213: 7484095716727262941
+    second: endery tileset_56
   - first:
-      213: -3838459133493697419
-    second: Tileset_gamejam_spritesheetlayout_57
+      213: -1029824438097299387
+    second: endery tileset_57
   - first:
-      213: 680922677478228097
-    second: Tileset_gamejam_spritesheetlayout_58
+      213: -644819667021219849
+    second: endery tileset_58
   - first:
-      213: 1594915815824276667
-    second: Tileset_gamejam_spritesheetlayout_59
+      213: -2970283121126926630
+    second: endery tileset_59
   - first:
-      213: 3301812777255804919
-    second: Tileset_gamejam_spritesheetlayout_60
+      213: -8847376240453810713
+    second: endery tileset_60
   - first:
-      213: -8168288387449777949
-    second: Tileset_gamejam_spritesheetlayout_61
+      213: 2412312173530866181
+    second: endery tileset_61
   - first:
-      213: 980901107686189958
-    second: Tileset_gamejam_spritesheetlayout_62
+      213: -8311862970083883768
+    second: endery tileset_62
   - first:
-      213: 6750440659395058729
-    second: Tileset_gamejam_spritesheetlayout_63
+      213: -5763510714347743718
+    second: endery tileset_63
   - first:
-      213: 5285842911752323691
-    second: Tileset_gamejam_spritesheetlayout_64
+      213: -4012622307407997769
+    second: endery tileset_64
   - first:
-      213: -5807781501902316796
-    second: Tileset_gamejam_spritesheetlayout_65
+      213: 1704574291562388118
+    second: endery tileset_65
   - first:
-      213: 3722348731609853642
-    second: Tileset_gamejam_spritesheetlayout_66
+      213: -6271592744476145613
+    second: endery tileset_66
   - first:
-      213: 496331006231265300
-    second: Tileset_gamejam_spritesheetlayout_67
+      213: -9091618895031148449
+    second: endery tileset_67
   - first:
-      213: -3234151018487173929
-    second: Tileset_gamejam_spritesheetlayout_68
+      213: 7635324636597268892
+    second: endery tileset_68
   - first:
-      213: 7472459978036394314
-    second: Tileset_gamejam_spritesheetlayout_69
+      213: -3294538175035909639
+    second: endery tileset_69
   - first:
-      213: -6241861093494994605
-    second: Tileset_gamejam_spritesheetlayout_70
+      213: 4317300445867065351
+    second: endery tileset_70
   - first:
-      213: -153688450092211355
-    second: Tileset_gamejam_spritesheetlayout_71
-  - first:
-      213: 69078673503818273
-    second: Tileset_gamejam_spritesheetlayout_72
-  - first:
-      213: 577882442864475971
-    second: Tileset_gamejam_spritesheetlayout_73
+      213: 3608761822947013099
+    second: endery tileset_71
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -267,7 +261,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -294,18 +288,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -352,17 +334,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_0
+      name: endery tileset_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1216
-        width: 64
-        height: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +364,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0cadbc3af369349af045d32184be5f
-      internalID: -5167181608317686219
+      spriteID: 9de0e7adebf1cb047b3325a26c4d1b45
+      internalID: 4925356889814931502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_1
+      name: endery tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dde1efdc6316144d9f47ade9d4924ce
+      internalID: 4368354453991679110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed5f4c5a185e0946896564d6d0ef0a8
+      internalID: -502082525663172911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f310003bd987ec4aa4248a88917fd97
+      internalID: 3606945435795161609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 1216
-        width: 64
-        height: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +448,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 713d69428afa787418d7884afe55fd82
-      internalID: -2156901489414719678
+      spriteID: baee83356195a1748ad6ff9037dd488f
+      internalID: 7853248971323600985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_2
+      name: endery tileset_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab20735e77593b449c6fa397d8e3c98
+      internalID: -8366379364926976717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786a68e60b7fbd440a9afc7ebae987e1
+      internalID: -6093576275599763462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3f94d287bcbea43b1d772e362da6c9
+      internalID: -4917108380394747280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_8
       rect:
         serializedVersion: 2
         x: 128
-        y: 1216
-        width: 64
-        height: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +532,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09e9a31260726749ba77da647369ba6
-      internalID: -7909371094957091716
+      spriteID: e10737385c13d4d499b44ffe6c9e6ab0
+      internalID: -8954157262203948931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_3
+      name: endery tileset_9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1216
-        width: 64
-        height: 64
+        x: 144
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ca53eac676b1df49993ae2013450984
-      internalID: -2890016854261321707
+      spriteID: 5cb84699d16f18245b1fbcba48cb9766
+      internalID: -2143444600912208838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_4
+      name: endery tileset_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1216
-        width: 64
-        height: 64
+        x: 160
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +574,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d73d32e3b9d91b42abf29d250f8a3f6
-      internalID: 1304668893371834102
+      spriteID: ed824e794593485468e520b2b15ec203
+      internalID: 5519058175243028373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_5
+      name: endery tileset_11
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1216
-        width: 64
-        height: 64
+        x: 176
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,1322 +595,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71dffe7464a20274c8ebeae665d1a9f5
-      internalID: -4312982317072618004
+      spriteID: 231caa9a7a762744c922b6eb1a2aa64a
+      internalID: -300082462842331984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff077fd7ab5ce546a52d7b96bfbc43d
-      internalID: -549762334203684081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_7
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d2fa0772eadb3419943e549bd5bbae
-      internalID: 3043602816383341637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d1ba7b4808f8f34d9cc46f6186fcae8
-      internalID: -5031441523080354475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_9
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1152
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b73e08dccf533014c8138dcec2c6fa01
-      internalID: 4397217495886548724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4e5b62bf80541e41891ea14a1da42df
-      internalID: -2139290152858159701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f23d7a672c4305b428d09b4f2673e198
-      internalID: -5264200602536614437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_12
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aee97eaf0822f7746878a67e09358b20
-      internalID: 8395490540804812173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_13
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 728e809028ce25a46ae4ac6d353f001c
-      internalID: 5165030171329653183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6b90d7329e37f247b715554e2068f35
-      internalID: 478477914201353155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc7fcb53e9787df49bbfaa3b9d1c6f4c
-      internalID: 8902485117083877298
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_16
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 549a7b36b61dc13499279e0cf37ae056
-      internalID: 7704736535529517343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_17
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53f5087f364b01b46b77f671b95da4d3
-      internalID: -5501136844851332932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_18
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1088
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4630ecaa87541e14d9740cca01718772
-      internalID: 1773738336045366028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_19
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d5a8219d3abd0f4ca5a89fac1df84e5
-      internalID: -5301357996280140217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_20
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a0a29d606d18b4e8f5cfd9695dfd03
-      internalID: 7155506682439710923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_21
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79f6066209b64f64686c1fc4413cf5c1
-      internalID: 5974302544957548552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_22
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 152a4f84719f8e14b921e165cccfdb2c
-      internalID: 1247606402418219817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c460f9d5118134c418ec215a82027c22
-      internalID: 7444711471670390186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_24
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a302ad6968de03842bc6db23cc61f150
-      internalID: -6683435405838269502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_25
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b108f6c7efa66a642ae550950b47bf06
-      internalID: 6429657509751112869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_26
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1024
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ece2f2df49d77d458307c9cd9240673
-      internalID: -3957235833051220470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_27
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 960
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 467c033e82255d54fac473b1c11127c5
-      internalID: -4918792349995651876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_28
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 960
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e69a9594a8fb22343954070dbce419c9
-      internalID: -3544958560732832499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_29
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 960
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a3f04cf53833e74784430a621977763
-      internalID: -1764088265843469666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_30
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 960
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65a0be642dc1be04f8238bafc3b45d49
-      internalID: 6746972103926527262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_31
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 896
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf6ff117bc4aa1c43abc7a2d141ef7fb
-      internalID: -2154690604292145039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_32
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 896
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad9216e712b70aa4bb84d8aaea687fcc
-      internalID: 9073816843296302902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_33
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8683b96b372aab34b80c1b8613d26717
-      internalID: -5606215872087813877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_34
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 135734609500c654aa0c2a90d43a7a56
-      internalID: -5467786891555764380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_35
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53494f870908df049836976285527dd1
-      internalID: 8250094435742026586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_36
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edc642080e312604ea35fcfdad2facf7
-      internalID: 940415883599748735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_37
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea8f24ff3d440e140aa656bc41f8aa32
-      internalID: 13716059260013028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_38
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11d2530119a817640b63725315be8d0d
-      internalID: -6322449145751604311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_39
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 832
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4718e211bc7f3a40962e1490d115027
-      internalID: 7904607513313305593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_40
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64d43f7bd499acb4fb14dfbeead1c74d
-      internalID: -995309100584074735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_41
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 797e8d308216ffb41967bb6fbaff31a6
-      internalID: 148478872355441613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_42
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef3fd03feb4cb894db1eb29eca62b698
-      internalID: 96219369213074762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_43
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 768
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48781071b09307548b6d4bffb9eff0f3
-      internalID: 1374736345721514620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a95eb52ced76dab4fb0d16fa33411e11
-      internalID: -6328251347635625274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_45
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 704
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 153609a8681640048b413711d9e75208
-      internalID: 2493840549631297308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_46
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 448b41d787d09974b86f26e936ee21d1
-      internalID: 7153709010988610592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_47
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23f3f30d9affd194eaa2422d33a7a1eb
-      internalID: 3064877509448268563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_48
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a59c7610d0e736643843ef2038a78898
-      internalID: -5060807345996704331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_49
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510d50c3d224124489f78734b5fefe63
-      internalID: 5079434239349803510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_50
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35246494bf03e0b4a84fe33f472579ef
-      internalID: 473994536076459290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_51
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4917ef6e5a0f16444ac1c4690a8b771f
-      internalID: 5941190875578030536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_52
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b249c641e74bf71458e682a3a79c6421
-      internalID: 82684903868338401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_53
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b0b4eda45dc95f42a95c2c5f12befe4
-      internalID: 5519904900868464191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_54
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1901b6fba75f95745a48535102e35dea
-      internalID: -3020837980943224141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55813398c7a352f4da451e0beda28487
-      internalID: -126667257359193356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_56
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1a07b6cd1d103b4d8a4bd5523769287
-      internalID: 5964267134149229116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_57
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc69a9397eb3ba34aae58561c4e8b1f8
-      internalID: -3838459133493697419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_58
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdbc9c69aaf2c9342871a713774c9367
-      internalID: 680922677478228097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_59
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e31ec5c0cccdf24ebf90f2ccc4fd131
-      internalID: 1594915815824276667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_60
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7226bbf7ffc58649a84f1776c84ca54
-      internalID: 3301812777255804919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_61
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc33c89465d109842b7e8202a3d9d86e
-      internalID: -8168288387449777949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_62
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a43d34abf7359df4f9056c75f39da4d1
-      internalID: 980901107686189958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_63
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 194ddf560fb5d8a4c9ddd11dca88ba63
-      internalID: 6750440659395058729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_64
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d9a7a84aefb9b4bb23a5bcd4cbf966
-      internalID: 5285842911752323691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_65
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1428e18554aa77247852efbdfeafaca0
-      internalID: -5807781501902316796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_66
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a233edc2d97ef0949a5da5179dff922e
-      internalID: 3722348731609853642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_67
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf83b6c3ea10446418a62282e01ef745
-      internalID: 496331006231265300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_68
+      name: endery tileset_12
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1798,20 +616,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9992ef47578c7134a8fd531b44361730
-      internalID: -3234151018487173929
+      spriteID: c0af039110c5c4c4f9a5dbe7a2d54bb4
+      internalID: 1367973565918678917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_69
+      name: endery tileset_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d88991c3b46e4cb457d42a609c9fd
+      internalID: -3586305663776038874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078103e99d838e14fbdfe82c30b579a0
+      internalID: 8022903728947956218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dba047a0455f9468f5c7ffe4e98160
+      internalID: 1190468898993426103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_16
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1819,20 +700,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53e8462a628dd241a4e647b431803d0
-      internalID: 7472459978036394314
+      spriteID: ad6dd04d74beeb04796b1939d06e6042
+      internalID: -7381345800566757042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_70
+      name: endery tileset_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14462b30be631844cb2b17e4e6cdd3c2
+      internalID: -6730676413624147807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9104d9b9e8b2ff4ba930150427a7792
+      internalID: -2575961531115781924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dda3f10a66ce9499f9ba4467f8f456
+      internalID: -3487123979312240492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_20
       rect:
         serializedVersion: 2
         x: 128
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1840,20 +784,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf89d1051eafc7a4585829ec67c104ff
-      internalID: -6241861093494994605
+      spriteID: a2ce5bec603856a46bda9ca2f038358d
+      internalID: 4341878240047558845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_71
+      name: endery tileset_21
       rect:
         serializedVersion: 2
-        x: 192
+        x: 144
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1861,20 +805,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204f3335751bf5f40a162921c0fd3467
-      internalID: -153688450092211355
+      spriteID: 03bccc6063e8bc74e9a27dc58fe75d1a
+      internalID: -6344078158646228178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_72
+      name: endery tileset_22
       rect:
         serializedVersion: 2
-        x: 256
+        x: 160
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1882,20 +826,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99592c557f949114b92fed5839366f1c
-      internalID: 69078673503818273
+      spriteID: 6b13369f8e47ffc42834ae74c790c7e2
+      internalID: -2528082129610065952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_gamejam_spritesheetlayout_73
+      name: endery tileset_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 176
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1903,8 +847,1016 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e85b355b062fa4697d8e3716555722
-      internalID: 577882442864475971
+      spriteID: 7a72a3d6441930440b917c68be109f78
+      internalID: -56781187727024312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea2a1d0f402204790352de6116dcd2
+      internalID: -4859774660551639749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67c430f31a95094e848f4e59d790a23
+      internalID: 5092942348716477504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e694b0799a1c442b3409e53710345c
+      internalID: 181792692764212104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2df7acb3a2b61f4c847828af067ce24
+      internalID: -8135060791261736771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ffb546e67a9249b57c5f2c0346e58
+      internalID: 745436142857285330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbecae0e3193342a39ba2c8181a2c7
+      internalID: 3277691512877974753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92ee4823d43e0b4185242c36a3d6259
+      internalID: 4120954205249957607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33b2cf386a7ec4e98f003c59c3542c
+      internalID: -6446715767149142949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd58a1d01fb4064f99968eac9603423
+      internalID: 6856262059136824736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a103f88e854ef45afb603e8367cbd4
+      internalID: 4490118348172928337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a380ef97ccb40e744ab3fb59fdbd27cd
+      internalID: 5021588199288391502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb162ffb590934fb444072ad921f38
+      internalID: 4126685557720831012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f1985681b7d464691912d4dce410d5
+      internalID: 1656260535187392339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2e447f3e599e94c8f6ab792ffefd8c
+      internalID: 2478911888966937267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3877ae0028dee2d4ebde6d9eac92607d
+      internalID: -8169244526123218601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f8da2399f4f4a4294136276b4897b4
+      internalID: 8246639064605273380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6526fb6e68dff6488621a8839c09e7e
+      internalID: 6454089162589216097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57c8f39b72766f4384324e07427b674
+      internalID: 8253097506147135401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23dfcfc4fbb854d942710b0d9e2d5c
+      internalID: -5577649254687311442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539f63c71eb57fe4d9d1846b7da585e0
+      internalID: 6552800648264074318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83707cfda9aa484f977376206591e3f
+      internalID: -7163292850396546086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec7d15e84c01ec4ab7db053a52da70f
+      internalID: -8304091435418731792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63bb1666fe230a43975284fced82f47
+      internalID: -1253803604174716141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec03c01ac9208744a3b85fa0890a392
+      internalID: -1791564235697220066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bdb162e419abd448c9737bc7bfd9e2
+      internalID: -7083723612543345919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cab592acbbb0740ae9d48fc7379f17
+      internalID: 7282213771822486778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f096e031abd954185522289f616a69
+      internalID: -3673467477208851192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd082e12e158a14fb1f8ccd7daac124
+      internalID: -8855834672517662102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18e86d726b99514a9b7649693c04d4c
+      internalID: 2524673978663075936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d8b70400a13a498f78acd075916f9
+      internalID: 4727537955710789569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c594b733841013c4ba9687c3e763fa1a
+      internalID: 4640372525209727308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64516f14f33c964b9a88b2c48719bde
+      internalID: -1748538620995535185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab3e3199c80a6c458a0d8e46edef6f0
+      internalID: 7484095716727262941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a89eef35a9ced4089f19302548fddf
+      internalID: -1029824438097299387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab880ffc364f014f9a22ec55164dc1e
+      internalID: -644819667021219849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60cc56f7a3ed404d9a994c0aebeb6e8
+      internalID: -2970283121126926630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15d5babea5e69c4a8345a875621d7be
+      internalID: -8847376240453810713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed439d9792fed964a96fbb073085a126
+      internalID: 2412312173530866181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7ebbc063021c64cbd0b4dfd32df63c
+      internalID: -8311862970083883768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028a085fdda696e488febd6d212dc005
+      internalID: -5763510714347743718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60059c005a55ee04e8563efa7c9979ce
+      internalID: -4012622307407997769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4d8785807b3f842962dc9249136091
+      internalID: 1704574291562388118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db346744dd069d4e9be01a93732474e
+      internalID: -6271592744476145613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620ac0885cafae489dad05c661a47a0
+      internalID: -9091618895031148449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea32db5a556c2740bb74f1f9e5fcaa2
+      internalID: 7635324636597268892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613c4cbc45a245841a52067e773a807b
+      internalID: -3294538175035909639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406496520b830084f9ec15b07b4cf696
+      internalID: 4317300445867065351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endery tileset_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97272d11d46431e4c9a26ffc03a8d68a
+      internalID: 3608761822947013099
       vertices: []
       indices: 
       edges: []
