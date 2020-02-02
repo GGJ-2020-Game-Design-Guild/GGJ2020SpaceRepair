@@ -92,7 +92,7 @@ public class ShipPart : Interactable
         if (health <= 0) {
             return;
         }
-        health -= 10;
+        health -= Random.Range(40,60);
         if (health <= 0) {
             LevelGlobal.broken++;
             if (LevelGlobal.broken >= 3) {
