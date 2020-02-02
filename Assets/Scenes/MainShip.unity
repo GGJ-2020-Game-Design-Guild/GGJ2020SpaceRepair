@@ -14568,7 +14568,7 @@ MonoBehaviour:
     correctAnswerResponse: 
     answer: 0
     time: 0
-  json: {fileID: 4900000, guid: 83d81ca81e8be6740aac5ed4327b977d, type: 3}
+  json: {fileID: 4900000, guid: 713ada6623a7f3847817faaa5dcef6be, type: 3}
 --- !u!1 &432078434
 GameObject:
   m_ObjectHideFlags: 0
