@@ -28,17 +28,19 @@ public class DisplayHealth : MonoBehaviour
         Color color2;
         if (health > 50)
         {
-            color1 = green;
-            color2 = yellow;
+            color1 = yellow;
+            color2 = green;
         }
         else {
-            color1 = yellow;
-            color2 = red;
+            color1 = red;
+            color2 = yellow;
         }
 
-        color.r = color1.r + (color1.r - color2.r) * (health % 50) / 50.0f;
-        color.g = color1.g + (color1.g - color2.g) * (health % 50) / 50.0f;
-        color.b = color1.b + (color1.b - color2.b) * (health % 50) / 50.0f;
+        color.r = color1.r + (color2.r - color1.r) * (health % 50.0f) / 50.0f;
+        color.g = color1.g + (color2.g - color1.g) * (health % 50.0f) / 50.0f;
+        color.b = color1.b + (color2.b - color1.b) * (health % 50.0f) / 50.0f;
+        if (health >= 100)
+            color = green;
 
         gameObject.GetComponent<SpriteRenderer>().color = color;
     }
