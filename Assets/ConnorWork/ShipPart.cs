@@ -22,8 +22,14 @@ public class ShipPart : Interactable
     // Update is called once per frame
     void Update()
     {
-        requiredItem = FindObjectOfType<ShipEventManager>().assignedItem;
-        requiredTool = FindObjectOfType<ShipEventManager>().assignedTool;
+        if (FindObjectOfType<ShipEventManager>().assignedPart)
+        {
+            if (FindObjectOfType<ShipEventManager>().assignedPart.name == gameObject.name)
+            {
+                requiredItem = FindObjectOfType<ShipEventManager>().assignedItem;
+                requiredTool = FindObjectOfType<ShipEventManager>().assignedTool;
+            }
+        }
     }
 
     override public void interact(PlayerInventory pi) {
