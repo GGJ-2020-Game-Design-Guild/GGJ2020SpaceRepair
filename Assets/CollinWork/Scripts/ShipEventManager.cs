@@ -6,24 +6,28 @@ using UnityEngine;
 public class ShipEventManager : MonoBehaviour
 {
     // Lists of ship machinery, parts, and tools.
-    public List<string> shipMachinery;
-    public List<string> shipParts;
-    public List<string> tools;
+    public List<GameObject> shipParts;
+    public List<GameObject> shipItems;
+    public List<GameObject> tools;
 
     // Start is called before the first frame update
     void Start()
     {
-        shipMachinery.Add("shipMachine1");
-        shipMachinery.Add("shipMachine2");
-        shipMachinery.Add("shipMachine3");
-
-        shipParts.Add("shipPart1");
-        shipParts.Add("shipPart2");
-        shipParts.Add("shipPart3");
-
-        tools.Add("tool1");
-        tools.Add("tool2");
-        tools.Add("tool3");
+        //shipParts.Add();
+        ////shipParts.Add();
+        ////shipParts.Add();
+        //
+        //shipItems.Add();
+        //shipItems.Add();
+        //shipItems.Add();
+        //shipItems.Add();
+        //shipItems.Add();
+        //
+        //tools.Add();
+        //tools.Add();
+        //tools.Add();
+        //tools.Add();
+        //tools.Add();
     }
 
     public void damageSelection()
