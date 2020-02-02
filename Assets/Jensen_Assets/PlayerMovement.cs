@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     private SpriteRenderer playerSprite;
 
+    public Animator animator;
+
 
     void Start()
     {
@@ -42,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         //If axis for horizontal
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
-
+            
             if (Input.GetAxisRaw("Horizontal") > 0.5f)
             {
                 playerSprite.flipX = true;
@@ -53,25 +55,44 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
+        
 
         if (Input.GetAxisRaw("Horizontal") > 0.5f)
         {
+            animator.SetBool("walkHorizontal", true);
             horMovement = 1 * speed;
         }
+        
+
 
         if (Input.GetAxisRaw("Horizontal") < -0.5f)
         {
+            animator.SetBool("walkHorizontal", true);
             horMovement = -1 * speed;
         }
 
+        if(horMovement == 0)
+        {
+            animator.SetBool("walkHorizontal", false);
+        }
+        
+
         if (Input.GetAxisRaw("Vertical") > 0.5f)
         {
+            animator.SetBool("walkUp", true);
             vertMovement = 1 * speed;
         }
         
+        
         if (Input.GetAxisRaw("Vertical") < -0.5f)
         {
+            animator.SetBool("walkDown", true);
             vertMovement = -1 * speed;
+        }
+        
+        if(vertMovement == 0)
+        { 
+            animator.SetBool("walkDown", false);
         }
 
         //set the rigidBody velocity to those values for x and y, and z to 0
@@ -79,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetAxisRaw("Vertical") == 0f && Input.GetAxisRaw("Horizontal") == 0f)
         {
+
             myRigidbody.velocity = Vector3.zero;
             myRigidbody.angularVelocity = 0;
 
