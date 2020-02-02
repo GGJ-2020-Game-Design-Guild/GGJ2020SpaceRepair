@@ -9,8 +9,8 @@ public class ShipPart : Interactable
 
     public bool hasItem = false;
 
-    Item requiredItem;
-    Tool requiredTool;
+    public Item requiredItem;
+    public Tool requiredTool;
     
     // Start is called before the first frame update
     void Start()

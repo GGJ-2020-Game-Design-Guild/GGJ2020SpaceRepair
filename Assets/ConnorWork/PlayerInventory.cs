@@ -9,7 +9,7 @@ public class PlayerInventory : MonoBehaviour
     string heldItemName;
     public int facing;
     public BoxCollider2D interactCollider;
-    public float throwForce = 10;
+    public float throwForce = 1000;
     // Start is called before the first frame update
     void Start()
     {
