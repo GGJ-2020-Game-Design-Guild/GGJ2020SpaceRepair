@@ -26,7 +26,7 @@ public class Tool : Item
           //  Debug.Log($"Obtained Tool: {this.name}");
         }
 
-        else
+        //else
           //  Debug.Log("Cannot pick up another object...");
     }
 }
