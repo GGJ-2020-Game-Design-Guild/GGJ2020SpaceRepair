@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: -7146440805895540249}
   - component: {fileID: 4880035267544928269}
   - component: {fileID: 4833683347345720683}
+  - component: {fileID: 935214815128841809}
+  - component: {fileID: 1140431844264057190}
   m_Layer: 0
   m_Name: Tool1
   m_TagString: Tool1
@@ -94,6 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2193ee8f5795b8479a979f663493675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 
+  sprite: {fileID: 0}
 --- !u!58 &4833683347345720683
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -110,3 +114,38 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.099999994
+--- !u!50 &935214815128841809
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889669793773405870}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 10
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1140431844264057190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889669793773405870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2193ee8f5795b8479a979f663493675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  sprite: {fileID: 0}

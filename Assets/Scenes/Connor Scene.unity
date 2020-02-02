@@ -355,7 +355,12 @@ PrefabInstance:
     - target: {fileID: 4904814420424367745, guid: 0e8ce25654badd34bb124c64d8bda633,
         type: 3}
       propertyPath: m_Mass
-      value: 10
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904814420424367745, guid: 0e8ce25654badd34bb124c64d8bda633,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e8ce25654badd34bb124c64d8bda633, type: 3}
@@ -887,6 +892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Item1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449289569111136571, guid: 1e0c59e045552e84683169e41f9f7c4e,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1449289569111136568, guid: 1e0c59e045552e84683169e41f9f7c4e,
         type: 3}
