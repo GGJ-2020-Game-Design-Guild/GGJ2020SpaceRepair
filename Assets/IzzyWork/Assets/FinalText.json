@@ -10,7 +10,7 @@
 			"text":"I cannot believe you just up and left like that!",
 			"time":15
 		},
-		
+		{
 			"type":"statement",
 			"text":"Is Space Journey really that worth it??",
 			"time":10
@@ -150,7 +150,7 @@
 		},
 		{
 			"type":"statement",
-			"%Date% , clear skies, sunny weather.",
+			"text":"%Date% , clear skies, sunny weather.",
 			"time":16
 		},
 		{
@@ -175,7 +175,7 @@
 		},
 		{
 			"type":"statement",
-			"text":"%Date%, Oh. Such a wonderful day... at the time, one of the best days of my life..."
+			"text":"%Date%, Oh. Such a wonderful day... at the time, one of the best days of my life...",
 			"time":16
 		},
 		{
@@ -209,7 +209,7 @@
 			"time":15
 		},
 		{
-			"type":"statement"
+			"type":"statement",
 			"text":"That day you gave me those %Color% flowers... those colors were magnificent",
 			"time": 14
 		},
@@ -254,9 +254,11 @@
 		},
 		{
 			"type":"question",
-			"text":"Do you even remember what today is!? \n A. %Event% B. %Event%. \n C. %Event% D. None of the above",
+			"text":"Do you even remember what today is!? \n A. %Event% B. %RandEvent%. \n C. %RandEvent% D. None of the above",
 			"incorrectAnswerResponse":"How clueless could you be?!",
 			"correctAnswerResponse":"Wait... Oh that's right it's nothing.",
-			"answer":0,1,2,
+			"answer":0,
 			"time": 14
 		}
+	]
+}
