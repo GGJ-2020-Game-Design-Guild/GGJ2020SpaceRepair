@@ -7,6 +7,8 @@ public class ShipTimeline : MonoBehaviour
 {
     ShipEventManager eventManagerScript;
     MarriageMeter shipMarriageMeter;
+    public AudioClip expl;
+
 
     void Start()
     {
@@ -49,6 +51,7 @@ public class ShipTimeline : MonoBehaviour
 
     void event1()
     {
+        AudioSource.PlayClipAtPoint(expl, FindObjectOfType<Camera>().transform.position, 2.0f);
         eventManagerScript.damageSelection();
     }
 

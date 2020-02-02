@@ -9,9 +9,9 @@ public class UIPopUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.transform.parent)
+        if (collision.gameObject.tag == "DioTrigger" || collision.gameObject.tag == "WalkTalk")
         {
-            if (collision.gameObject.transform.parent.gameObject.tag == "WalkTalk")
+            if (collision.gameObject.layer == 8)
             {
                 isItem = true;
             }
@@ -19,14 +19,7 @@ public class UIPopUp : MonoBehaviour
             {
                 isItem = false;
             }
-        }
-        else
-        {
-            isItem = false;
-        }
 
-        if (collision.gameObject.tag == "DioTrigger" || collision.gameObject.tag == "WalkTalk")
-        {
             playerCanvas.SetActive(true);
         }
     }
