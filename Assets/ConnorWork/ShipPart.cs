@@ -12,12 +12,14 @@ public class ShipPart : Interactable
 
     public GameObject requiredItem;
     public GameObject requiredTool;
+    public Sprite[] spriteList;
     
     // Start is called before the first frame update
     void Start()
     {
         health = MAX_HEALTH;
-        Debug.Log($"Required Item: {requiredItem}, Required Tool: {requiredTool}");
+        // Debug.Log($"Required Item: {requiredItem}, Required Tool: {requiredTool}");
+        gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
     }
 
     // Update is called once per frame
@@ -30,6 +32,21 @@ public class ShipPart : Interactable
                 requiredItem = FindObjectOfType<ShipEventManager>().assignedItem;
                 requiredTool = FindObjectOfType<ShipEventManager>().assignedTool;
             }
+        }
+
+        if (health > 50)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+        }
+
+        if (health <= 50)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+        }
+
+        if (health <= 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
         }
     }
 

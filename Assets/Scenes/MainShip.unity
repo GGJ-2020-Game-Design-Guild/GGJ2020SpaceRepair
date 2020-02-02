@@ -22338,11 +22338,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6808571788288419955, guid: c356645c68360d442a0a126fe35e4f23,
         type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419955, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2621813676515794583, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[0]
+      value: 
+      objectReference: {fileID: 2621813676515794583, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[1]
+      value: 
+      objectReference: {fileID: -8378540007533581061, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1008231194698472524, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c356645c68360d442a0a126fe35e4f23, type: 3}
 --- !u!1 &1228771025 stripped
@@ -23114,11 +23178,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419956, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6808571788288419955, guid: c356645c68360d442a0a126fe35e4f23,
         type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419955, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -728304250712187176, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419954, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[0]
+      value: 
+      objectReference: {fileID: -728304250712187176, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[1]
+      value: 
+      objectReference: {fileID: 4219473298160913370, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
+    - target: {fileID: 6808571788288419953, guid: c356645c68360d442a0a126fe35e4f23,
+        type: 3}
+      propertyPath: spriteList.Array.data[2]
+      value: 
+      objectReference: {fileID: 8363501992799445651, guid: c4ec44685eddb39478d323d8f3a97190,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c356645c68360d442a0a126fe35e4f23, type: 3}
 --- !u!1 &2136836567 stripped
