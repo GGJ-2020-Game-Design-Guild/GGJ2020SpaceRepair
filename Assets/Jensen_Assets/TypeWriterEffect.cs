@@ -20,6 +20,14 @@ public class TypeWriterEffect : MonoBehaviour {
     private MarriageMeter marriageMeter;
     public int currentDio = 0;
 
+    public GameObject dioImage;
+
+    public Sprite[] spouce1;
+    public Sprite[] spouce2;
+    public Sprite[] spouce3;
+
+    
+
     private void Start()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
@@ -35,6 +43,66 @@ public class TypeWriterEffect : MonoBehaviour {
         globalDioTimeline = FindObjectOfType<DioTimeline>();
         UIPopUp = FindObjectOfType<UIPopUp>();
         marriageMeter = FindObjectOfType<MarriageMeter>();
+
+        //Spouce Image set code
+
+        if (globalDioTimeline.spouceNum == 1)
+        {
+            if (marriageMeter.marriageMeter <= 100 && marriageMeter.marriageMeter > 75)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce1[0];
+            }
+            else if (marriageMeter.marriageMeter <= 75 && marriageMeter.marriageMeter > 50)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce1[1];
+            }
+            else if (marriageMeter.marriageMeter <= 50 && marriageMeter.marriageMeter > 25)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce1[2];
+            }
+            else if (marriageMeter.marriageMeter <= 25 && marriageMeter.marriageMeter >= 0)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce1[3];
+            }
+        }
+        else if (globalDioTimeline.spouceNum == 2)
+        {
+            if (marriageMeter.marriageMeter <= 100 && marriageMeter.marriageMeter > 75)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce2[0];
+            }
+            else if (marriageMeter.marriageMeter <= 75 && marriageMeter.marriageMeter > 50)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce2[1];
+            }
+            else if (marriageMeter.marriageMeter <= 50 && marriageMeter.marriageMeter > 25)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce2[2];
+            }
+            else if (marriageMeter.marriageMeter <= 25 && marriageMeter.marriageMeter >= 0)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce2[3];
+            }
+        }
+        else if (globalDioTimeline.spouceNum == 3)
+        {
+            if (marriageMeter.marriageMeter <= 100 && marriageMeter.marriageMeter > 75)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce3[0];
+            }
+            else if (marriageMeter.marriageMeter <= 75 && marriageMeter.marriageMeter > 50)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce3[1];
+            }
+            else if (marriageMeter.marriageMeter <= 50 && marriageMeter.marriageMeter > 25)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce3[2];
+            }
+            else if (marriageMeter.marriageMeter <= 25 && marriageMeter.marriageMeter >= 0)
+            {
+                dioImage.GetComponent<Image>().sprite = spouce3[3];
+            }
+        }
 
         if (currentDio != globalDioTimeline.globalDio)
         {

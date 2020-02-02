@@ -14321,6 +14321,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &360674378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5676918726676959692, guid: a2c87e94407a9b14a89cc4302fa86b39,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826675441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &392103907 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5365378994023634790, guid: f225ecb44c324fc4aa375167c8a1699c,
@@ -29729,6 +29735,98 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce1.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce2.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce3.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce1.Array.data[0]
+      value: 
+      objectReference: {fileID: 6965047115890307952, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce1.Array.data[1]
+      value: 
+      objectReference: {fileID: 124778248031010604, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce1.Array.data[2]
+      value: 
+      objectReference: {fileID: 3620658917476856527, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce1.Array.data[3]
+      value: 
+      objectReference: {fileID: -240074429265798085, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce2.Array.data[0]
+      value: 
+      objectReference: {fileID: 3676541299405751714, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce2.Array.data[1]
+      value: 
+      objectReference: {fileID: 1526505588848198685, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce2.Array.data[2]
+      value: 
+      objectReference: {fileID: -8645100499738975675, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce2.Array.data[3]
+      value: 
+      objectReference: {fileID: 2714393964764879263, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce3.Array.data[0]
+      value: 
+      objectReference: {fileID: -4846084503708910744, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce3.Array.data[1]
+      value: 
+      objectReference: {fileID: 3235379671223808577, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce3.Array.data[2]
+      value: 
+      objectReference: {fileID: -894852011493787267, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: spouce3.Array.data[3]
+      value: 
+      objectReference: {fileID: -8636299464355139497, guid: 9611e1e54cbe7bf41b2ec00f0fbfa9f0,
+        type: 3}
+    - target: {fileID: 5676918726368567219, guid: a2c87e94407a9b14a89cc4302fa86b39,
+        type: 3}
+      propertyPath: dioImage
+      value: 
+      objectReference: {fileID: 360674378}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2c87e94407a9b14a89cc4302fa86b39, type: 3}
 --- !u!1 &1865958936

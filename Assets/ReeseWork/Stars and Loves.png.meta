@@ -254,6 +254,24 @@ TextureImporter:
   - first:
       213: -4949061047157041132
     second: Stars and Loves_83
+  - first:
+      213: -8662723157131636284
+    second: Stars and Loves_84
+  - first:
+      213: -5571252336062646441
+    second: Stars and Loves_85
+  - first:
+      213: -7570277731036392817
+    second: Stars and Loves_86
+  - first:
+      213: -2231453455005112786
+    second: Stars and Loves_87
+  - first:
+      213: 5524179118388788455
+    second: Stars and Loves_88
+  - first:
+      213: -8425956426416212198
+    second: Stars and Loves_89
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -390,7 +408,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 579
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -400,7 +418,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d4bc6b12b5fda4ba487b8805807f30
+      spriteID: e4b359f5695040b488fcf41ebe894286
       internalID: 2714393964764879263
       vertices: []
       indices: 
@@ -411,7 +429,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 579
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -421,7 +439,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 804b9175ca948f94b9b3c6d3e724b048
+      spriteID: 6e5dfc89ca44803448fd3453420a628c
       internalID: -8645100499738975675
       vertices: []
       indices: 
@@ -432,7 +450,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 579
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -442,7 +460,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f71aa37a30b7cc40a141373b7a00589
+      spriteID: fc97c603bab7a2842b9370dec1209ac8
       internalID: 1526505588848198685
       vertices: []
       indices: 
@@ -453,7 +471,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 579
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -463,7 +481,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84674963b8f2d7849b3bbe201215dad0
+      spriteID: 265dc50365724d944bff93e112daa9a9
       internalID: 3676541299405751714
       vertices: []
       indices: 
@@ -474,7 +492,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -484,7 +502,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1e641744e43a049bf42fea529f9800
+      spriteID: 0ec61c2ca67bb5b41a7a3b4a0be0993e
       internalID: 4018087652002232126
       vertices: []
       indices: 
@@ -495,7 +513,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -505,7 +523,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ca20014dd225da4fa67f832ff134788
+      spriteID: 356363d56461c534191aebde7ee721a5
       internalID: -3951536022368955830
       vertices: []
       indices: 
@@ -516,7 +534,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -526,7 +544,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e071fc7e7d1414f9cf31112cce7f7e
+      spriteID: 104f0ecdb1ba8474391958f5f59957eb
       internalID: -240074429265798085
       vertices: []
       indices: 
@@ -537,7 +555,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -547,7 +565,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5beef985fff6c954b85c1b067e381f00
+      spriteID: 7b743a4c09c77a84d82304d245fb3603
       internalID: 6071796043428246768
       vertices: []
       indices: 
@@ -558,7 +576,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -568,7 +586,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac1d3168e1be8a244b82ea800c24b98c
+      spriteID: 2217c6db724354e43b8907d3bdf2573e
       internalID: 3620658917476856527
       vertices: []
       indices: 
@@ -579,7 +597,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -589,7 +607,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410c503315654794a92124a6e7631407
+      spriteID: e204934185e2d95418b0a976a3f01dec
       internalID: -4886844375438587132
       vertices: []
       indices: 
@@ -600,7 +618,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -610,7 +628,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4858a2bb2a28a8849b5dc6a45d9b1a80
+      spriteID: 9c8921919e1f13e40a5469498f1ac99b
       internalID: 124778248031010604
       vertices: []
       indices: 
@@ -621,7 +639,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 515
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -631,7 +649,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef6795734c0c12d44bbaa28aa7084947
+      spriteID: 96721bccd50e03b4c8f93cc22cbd1299
       internalID: 6965047115890307952
       vertices: []
       indices: 
@@ -642,7 +660,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -652,7 +670,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b89bd268e8ed06547818f532cd74ebe5
+      spriteID: 3d2cdc86e04d3b547b598f16537f80da
       internalID: -8636299464355139497
       vertices: []
       indices: 
@@ -663,7 +681,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -673,7 +691,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b62e9938acc78049ac7f0abbc6f5d1a
+      spriteID: b7cee51959fad564fbb8ae7bbc9ba713
       internalID: -894852011493787267
       vertices: []
       indices: 
@@ -684,7 +702,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -694,7 +712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72696c5444f1c2a43943e6c7740630ff
+      spriteID: a775a98d640c35f448d57a242dcb8a91
       internalID: 3235379671223808577
       vertices: []
       indices: 
@@ -705,7 +723,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -715,7 +733,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7b15d21d4a542c4485f747d59cd468e
+      spriteID: 8bc4ac7ee191b8444a606d7566dcec19
       internalID: -4846084503708910744
       vertices: []
       indices: 
@@ -726,7 +744,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -736,7 +754,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f973e2ebfe59b954584b4504704b6fa4
+      spriteID: c45493ba38404634786fb0cfbfafc43d
       internalID: 2409548248357622151
       vertices: []
       indices: 
@@ -747,7 +765,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -757,7 +775,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5960d2ac671a57448bf7e77238ccbe12
+      spriteID: 74e60c5c3e181494a9697eb00a0e90d9
       internalID: 7902365184191794985
       vertices: []
       indices: 
@@ -768,7 +786,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -778,7 +796,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbaf6f4259c819d4289077967f90365a
+      spriteID: 8a855898dbb70054e95b7ce7d01316c3
       internalID: 3318796878315203268
       vertices: []
       indices: 
@@ -789,7 +807,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 451
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -799,7 +817,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ab4f3d6b92ebd54dbca355e9168b931
+      spriteID: 208e05e7c43bd73419a50b29b724623f
       internalID: 4062386226107265847
       vertices: []
       indices: 
@@ -810,7 +828,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 387
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -820,7 +838,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e2c7bf9bd42f5e4c8af4a0edc42c886
+      spriteID: e62ae52d1342f2847bcdd189a429c0c3
       internalID: 2605761811285033544
       vertices: []
       indices: 
@@ -831,7 +849,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 387
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -841,7 +859,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e53a66ba080afce449b7d3d3d43d2bf5
+      spriteID: ea6f2040f47bc0a4da54fa7cdde7ac01
       internalID: -1769803357330718171
       vertices: []
       indices: 
@@ -852,7 +870,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 387
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -862,7 +880,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9764541b7f9094847981e4bd9ef4f810
+      spriteID: a685c517ded59544bb72b5014cb5da17
       internalID: 5296055284053573100
       vertices: []
       indices: 
@@ -873,7 +891,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 387
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -883,7 +901,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106b4c7f786db9440b408fbb5f1bd8aa
+      spriteID: cf7825011362f3e429aa785c6b4d7d4a
       internalID: -1467344233222959912
       vertices: []
       indices: 
@@ -893,8 +911,8 @@ TextureImporter:
       name: Stars and Loves_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 323
+        x: 256
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -904,7 +922,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66d1dc69664f5d040ba82ca4c4fd4f72
+      spriteID: 9492faa0a7622414399b79ec89a6aafe
       internalID: 6893061344063250585
       vertices: []
       indices: 
@@ -914,8 +932,8 @@ TextureImporter:
       name: Stars and Loves_25
       rect:
         serializedVersion: 2
-        x: 64
-        y: 323
+        x: 320
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -925,7 +943,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbeaba0537478944e9dbb1640a232b33
+      spriteID: ebe7aaecc50e6b948b032d67ff85ef6e
       internalID: -7172587167244677901
       vertices: []
       indices: 
@@ -935,8 +953,8 @@ TextureImporter:
       name: Stars and Loves_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 323
+        x: 384
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -946,7 +964,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e42647fbecae9b64bbb8a81450095d4f
+      spriteID: b8bddc7bfec79cb4aa2422cb1b9d38cc
       internalID: 3063517132952292754
       vertices: []
       indices: 
@@ -956,8 +974,8 @@ TextureImporter:
       name: Stars and Loves_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 323
+        x: 448
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -967,7 +985,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6546652ca31431d43a9d8bfee3f4f303
+      spriteID: 912e7aa662e66424f89504d3ddeda950
       internalID: -2436329826679026466
       vertices: []
       indices: 
@@ -977,8 +995,8 @@ TextureImporter:
       name: Stars and Loves_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 323
+        x: 512
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -988,7 +1006,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1053dc1bc0a3c3444a6bd011850e0a8c
+      spriteID: 42d82429fd3d1a645842745f7ee2c59a
       internalID: -6896477324157889923
       vertices: []
       indices: 
@@ -998,8 +1016,8 @@ TextureImporter:
       name: Stars and Loves_29
       rect:
         serializedVersion: 2
-        x: 320
-        y: 323
+        x: 576
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1009,7 +1027,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b469b245f7bdd1498535d2602007670
+      spriteID: 5bb5e7838dbff12478a34fca23d40070
       internalID: 2980148744290832078
       vertices: []
       indices: 
@@ -1019,8 +1037,8 @@ TextureImporter:
       name: Stars and Loves_30
       rect:
         serializedVersion: 2
-        x: 384
-        y: 323
+        x: 0
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1030,7 +1048,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c0276f6f5d06d44a3d552c8f2aa091
+      spriteID: 537bc9b158b7b5a43bf7976144db7550
       internalID: 7877486340656172532
       vertices: []
       indices: 
@@ -1040,8 +1058,8 @@ TextureImporter:
       name: Stars and Loves_31
       rect:
         serializedVersion: 2
-        x: 448
-        y: 323
+        x: 64
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1051,7 +1069,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b122a7dc05918bb40aa549143c034ee8
+      spriteID: 6756dbd4a007c1244b8c6303158e8587
       internalID: 9138318169118237132
       vertices: []
       indices: 
@@ -1061,8 +1079,8 @@ TextureImporter:
       name: Stars and Loves_32
       rect:
         serializedVersion: 2
-        x: 512
-        y: 323
+        x: 128
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1072,7 +1090,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303bc9befb742db44b6210e9aefe5650
+      spriteID: 3f6f7191081cd524684272341b707407
       internalID: 2430247956233442195
       vertices: []
       indices: 
@@ -1082,8 +1100,8 @@ TextureImporter:
       name: Stars and Loves_33
       rect:
         serializedVersion: 2
-        x: 576
-        y: 323
+        x: 192
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1093,7 +1111,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eec89b640dc7b24caa3f43dbd024471
+      spriteID: 411ef885ef66b63488238b9c71f2d95a
       internalID: -8889230478099786652
       vertices: []
       indices: 
@@ -1103,8 +1121,8 @@ TextureImporter:
       name: Stars and Loves_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 259
+        x: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1114,7 +1132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc6679f0a57ccc34fb33ef3bb6b6384c
+      spriteID: 82f8168f29f7dd24ebe1b9f80efdab0b
       internalID: -1396049526327417335
       vertices: []
       indices: 
@@ -1124,8 +1142,8 @@ TextureImporter:
       name: Stars and Loves_35
       rect:
         serializedVersion: 2
-        x: 64
-        y: 259
+        x: 320
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1135,7 +1153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8a67de58a308347b250e6a620e6879
+      spriteID: 71608c9c17f64c841bec9d24efd19b42
       internalID: 5798841103978655721
       vertices: []
       indices: 
@@ -1145,8 +1163,8 @@ TextureImporter:
       name: Stars and Loves_36
       rect:
         serializedVersion: 2
-        x: 128
-        y: 259
+        x: 384
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1156,7 +1174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8dd51d50092e584994f9c4344010cf6
+      spriteID: 85c67bfacd4539c4eb4a141287374c6d
       internalID: -207354029552165597
       vertices: []
       indices: 
@@ -1166,8 +1184,8 @@ TextureImporter:
       name: Stars and Loves_37
       rect:
         serializedVersion: 2
-        x: 192
-        y: 259
+        x: 448
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1177,7 +1195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf492dd0ecbec9e408be2ccefbe76ce1
+      spriteID: 47775150915b1b24d9174c2f3994e743
       internalID: -588836494996927995
       vertices: []
       indices: 
@@ -1187,8 +1205,8 @@ TextureImporter:
       name: Stars and Loves_38
       rect:
         serializedVersion: 2
-        x: 256
-        y: 259
+        x: 512
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1198,7 +1216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf31a52a98c5ee498352c796f477586
+      spriteID: f4e81524dcc90a44bb78d572323a9ff6
       internalID: -3136233808172763036
       vertices: []
       indices: 
@@ -1208,8 +1226,8 @@ TextureImporter:
       name: Stars and Loves_39
       rect:
         serializedVersion: 2
-        x: 320
-        y: 259
+        x: 576
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1219,7 +1237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8d6d5d5dc7a2b4f8688f7973792a15
+      spriteID: a86134b320fd3e543a06777a98ce8553
       internalID: -5694157646450000940
       vertices: []
       indices: 
@@ -1229,8 +1247,8 @@ TextureImporter:
       name: Stars and Loves_40
       rect:
         serializedVersion: 2
-        x: 384
-        y: 259
+        x: 0
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1240,7 +1258,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ddf0258b51c7b14b8c8698e692debf1
+      spriteID: 63bc3b4790eb22742bc6e79f501b2928
       internalID: 4750750605372703461
       vertices: []
       indices: 
@@ -1250,8 +1268,8 @@ TextureImporter:
       name: Stars and Loves_41
       rect:
         serializedVersion: 2
-        x: 448
-        y: 259
+        x: 64
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1261,7 +1279,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5ed7ec807f9bf4d9dcac1b8818b582
+      spriteID: 783fa020ae9923649a16c3811d77fe20
       internalID: 7909758739067143171
       vertices: []
       indices: 
@@ -1271,8 +1289,8 @@ TextureImporter:
       name: Stars and Loves_42
       rect:
         serializedVersion: 2
-        x: 512
-        y: 259
+        x: 128
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1282,7 +1300,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e141eea87062a7f498348ba81cb7f533
+      spriteID: ea5e252fc93c5e54b93fd1a4c72c2e89
       internalID: 4809019281947317141
       vertices: []
       indices: 
@@ -1292,8 +1310,8 @@ TextureImporter:
       name: Stars and Loves_43
       rect:
         serializedVersion: 2
-        x: 576
-        y: 259
+        x: 192
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1303,7 +1321,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f6d677897440d5478a29224bb02cabc
+      spriteID: 88a93194bca1a584586cdfb38d956d0c
       internalID: -220494604241411728
       vertices: []
       indices: 
@@ -1313,8 +1331,8 @@ TextureImporter:
       name: Stars and Loves_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 195
+        x: 256
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1324,7 +1342,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15acf7708dc0fbb4d9b7d9607d867f0f
+      spriteID: a89f16dec07a1aa4ba6b7f0ee464a69f
       internalID: 2495195465579722032
       vertices: []
       indices: 
@@ -1334,8 +1352,8 @@ TextureImporter:
       name: Stars and Loves_45
       rect:
         serializedVersion: 2
-        x: 64
-        y: 195
+        x: 320
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1345,7 +1363,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c02f7f672d9ecf42ad2796c9d399a76
+      spriteID: 52a6eae7f78e60e4db5aa954391773a9
       internalID: -4338344768643184802
       vertices: []
       indices: 
@@ -1355,8 +1373,8 @@ TextureImporter:
       name: Stars and Loves_46
       rect:
         serializedVersion: 2
-        x: 128
-        y: 195
+        x: 384
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1366,7 +1384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 030486a989e2c0a408314319fd1be878
+      spriteID: 5cd82730b517ab244a5f005918677f3a
       internalID: 8238288247367358440
       vertices: []
       indices: 
@@ -1376,8 +1394,8 @@ TextureImporter:
       name: Stars and Loves_47
       rect:
         serializedVersion: 2
-        x: 192
-        y: 195
+        x: 448
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1387,7 +1405,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d45c434b59d6246b344f0368df7448
+      spriteID: 64e70d5575ca93a45957d2d66cc72b42
       internalID: -5801151532577744522
       vertices: []
       indices: 
@@ -1397,8 +1415,8 @@ TextureImporter:
       name: Stars and Loves_48
       rect:
         serializedVersion: 2
-        x: 256
-        y: 195
+        x: 512
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1408,7 +1426,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 140e3bb1e3b996340ae36cb02e7d4a36
+      spriteID: f694972bf8096684d931eb5bed315280
       internalID: -4162427692473910904
       vertices: []
       indices: 
@@ -1418,8 +1436,8 @@ TextureImporter:
       name: Stars and Loves_49
       rect:
         serializedVersion: 2
-        x: 320
-        y: 195
+        x: 576
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1429,7 +1447,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ef0d40d6d4fa6f4394e52ba1d0e4c37
+      spriteID: 65df5959dd8005a4285461c4c58882ce
       internalID: -7409989319942802823
       vertices: []
       indices: 
@@ -1439,8 +1457,8 @@ TextureImporter:
       name: Stars and Loves_50
       rect:
         serializedVersion: 2
-        x: 384
-        y: 195
+        x: 0
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1450,7 +1468,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098d195a65b49504f8d9935c7293b60f
+      spriteID: 49a920f971f0bfb4199a536a7c8efffa
       internalID: -821579281416851326
       vertices: []
       indices: 
@@ -1460,8 +1478,8 @@ TextureImporter:
       name: Stars and Loves_51
       rect:
         serializedVersion: 2
-        x: 448
-        y: 195
+        x: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1471,7 +1489,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f63479aa15f784681cc4a3ea4c5ef4
+      spriteID: 9de4de1608a0c864986ca9c92a1eb9b9
       internalID: -2857367144998694306
       vertices: []
       indices: 
@@ -1481,8 +1499,8 @@ TextureImporter:
       name: Stars and Loves_52
       rect:
         serializedVersion: 2
-        x: 512
-        y: 195
+        x: 128
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1492,7 +1510,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1a2b4224e82d87409090bb16bcf41aa
+      spriteID: 09372c71ed7c8de48ae51b76dfcc2742
       internalID: 1583776048953581136
       vertices: []
       indices: 
@@ -1502,8 +1520,8 @@ TextureImporter:
       name: Stars and Loves_53
       rect:
         serializedVersion: 2
-        x: 576
-        y: 195
+        x: 192
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1513,7 +1531,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aaea88317f709249b369a8b72fd635c
+      spriteID: 79c60d5cf14150b42ba96fbb4b132e71
       internalID: -1059463543347965707
       vertices: []
       indices: 
@@ -1523,8 +1541,8 @@ TextureImporter:
       name: Stars and Loves_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 131
+        x: 256
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1534,7 +1552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 334b67e5493ecf34b96ccbeec316cd30
+      spriteID: 7fee5fd8fe1e0844c90aabae3bc3d9bb
       internalID: -2635553768508483148
       vertices: []
       indices: 
@@ -1544,8 +1562,8 @@ TextureImporter:
       name: Stars and Loves_55
       rect:
         serializedVersion: 2
-        x: 64
-        y: 131
+        x: 320
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1555,7 +1573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc5b17e01a95c642bdb706f4e017573
+      spriteID: 74caaab1aeab0734da77a9e8a3a94ad1
       internalID: 8090319175427915446
       vertices: []
       indices: 
@@ -1565,8 +1583,8 @@ TextureImporter:
       name: Stars and Loves_56
       rect:
         serializedVersion: 2
-        x: 128
-        y: 131
+        x: 384
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1576,7 +1594,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc33886ffbeaa248a5407588599d949
+      spriteID: 24b8fe75497322c49a279a4ccb189a9b
       internalID: 5068509503145844825
       vertices: []
       indices: 
@@ -1586,8 +1604,8 @@ TextureImporter:
       name: Stars and Loves_57
       rect:
         serializedVersion: 2
-        x: 192
-        y: 131
+        x: 448
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1597,7 +1615,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c376fdff561761409b5c0605fc88ab0
+      spriteID: 9e0751f1eca9f3040972114c89d11b13
       internalID: -51051025615081100
       vertices: []
       indices: 
@@ -1607,8 +1625,8 @@ TextureImporter:
       name: Stars and Loves_58
       rect:
         serializedVersion: 2
-        x: 256
-        y: 131
+        x: 512
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1618,7 +1636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8d26ff14564d842b8fa2ef612a3a2a
+      spriteID: 54b0efe564916f24ebe07d94f27d79f6
       internalID: 4651273228889933440
       vertices: []
       indices: 
@@ -1628,8 +1646,8 @@ TextureImporter:
       name: Stars and Loves_59
       rect:
         serializedVersion: 2
-        x: 320
-        y: 131
+        x: 576
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1639,7 +1657,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57375ba0d83115f449aa8735ba70a9f7
+      spriteID: 519503911179a5249a0b5e348f097db3
       internalID: -844333262926109959
       vertices: []
       indices: 
@@ -1649,8 +1667,8 @@ TextureImporter:
       name: Stars and Loves_60
       rect:
         serializedVersion: 2
-        x: 384
-        y: 131
+        x: 0
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1660,7 +1678,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a3a14947883264a87018a05f4a513d
+      spriteID: 6734beeb04333e74d89fe559133c1db8
       internalID: 1106424948480976802
       vertices: []
       indices: 
@@ -1670,8 +1688,8 @@ TextureImporter:
       name: Stars and Loves_61
       rect:
         serializedVersion: 2
-        x: 448
-        y: 131
+        x: 64
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1681,7 +1699,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d349b627145c3b64384a34c1a9156148
+      spriteID: 6a03ea9695a5c9a4887e45e75566bc7b
       internalID: 6535248978773979017
       vertices: []
       indices: 
@@ -1691,8 +1709,8 @@ TextureImporter:
       name: Stars and Loves_62
       rect:
         serializedVersion: 2
-        x: 512
-        y: 131
+        x: 128
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1702,7 +1720,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 903345a530df8a641a30e92cd43c3d20
+      spriteID: 57565b45360c01943830a1eebd9d9b0e
       internalID: -5061204777849000840
       vertices: []
       indices: 
@@ -1712,8 +1730,8 @@ TextureImporter:
       name: Stars and Loves_63
       rect:
         serializedVersion: 2
-        x: 576
-        y: 131
+        x: 192
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1723,7 +1741,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6832ff33d0eb7504792a68c6d2d5ab3f
+      spriteID: 8c8b932027cc490449e71ada21c8b05f
       internalID: -2267413115373506912
       vertices: []
       indices: 
@@ -1733,8 +1751,8 @@ TextureImporter:
       name: Stars and Loves_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 67
+        x: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1744,7 +1762,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97cb2ed967a4b7b4ea61e69a960ef84d
+      spriteID: d343682eb69231f408e967504f477411
       internalID: 3386042435996832050
       vertices: []
       indices: 
@@ -1754,8 +1772,8 @@ TextureImporter:
       name: Stars and Loves_65
       rect:
         serializedVersion: 2
-        x: 64
-        y: 67
+        x: 320
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1765,7 +1783,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddb3712561203cb46a8bb7451155ef08
+      spriteID: ad08f1e6623d0364ca1e242e7e76d86f
       internalID: -3092266011676002305
       vertices: []
       indices: 
@@ -1775,8 +1793,8 @@ TextureImporter:
       name: Stars and Loves_66
       rect:
         serializedVersion: 2
-        x: 128
-        y: 67
+        x: 384
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1786,7 +1804,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e4b8cd03c46d4245bbbe777ade2f87e
+      spriteID: 3ebe405cd56123942ac9b1116b192cb9
       internalID: -6526505730619036968
       vertices: []
       indices: 
@@ -1796,8 +1814,8 @@ TextureImporter:
       name: Stars and Loves_67
       rect:
         serializedVersion: 2
-        x: 192
-        y: 67
+        x: 448
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1807,7 +1825,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fec136d4a31254cb84eeeac76b5109
+      spriteID: d22074803f4af6e44931f0110670ca8a
       internalID: 7567647516214373756
       vertices: []
       indices: 
@@ -1817,8 +1835,8 @@ TextureImporter:
       name: Stars and Loves_68
       rect:
         serializedVersion: 2
-        x: 256
-        y: 67
+        x: 512
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1828,7 +1846,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878ad18175969814c8b10ba3f357ebbc
+      spriteID: 11288da7ec37d0741beddf7deccc909f
       internalID: -1865570811335607036
       vertices: []
       indices: 
@@ -1838,8 +1856,8 @@ TextureImporter:
       name: Stars and Loves_69
       rect:
         serializedVersion: 2
-        x: 320
-        y: 67
+        x: 576
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1849,7 +1867,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f67d8581eb669b4f9be6ed422257e8a
+      spriteID: 0b74afbe0a602c74e9b28e486d3c747e
       internalID: 3173112942111520801
       vertices: []
       indices: 
@@ -1859,8 +1877,8 @@ TextureImporter:
       name: Stars and Loves_70
       rect:
         serializedVersion: 2
-        x: 384
-        y: 67
+        x: 0
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1870,7 +1888,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39e74663f6a358841a74c376e8aa73c4
+      spriteID: b136de990fcf19249a598883845de3c3
       internalID: -5544010802311210038
       vertices: []
       indices: 
@@ -1880,8 +1898,8 @@ TextureImporter:
       name: Stars and Loves_71
       rect:
         serializedVersion: 2
-        x: 448
-        y: 67
+        x: 64
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1891,7 +1909,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec26a09d1d4331b4b909ddefa7d56925
+      spriteID: 2d1276547d159e041bfedae6da96f687
       internalID: -2003397746381160885
       vertices: []
       indices: 
@@ -1901,8 +1919,8 @@ TextureImporter:
       name: Stars and Loves_72
       rect:
         serializedVersion: 2
-        x: 512
-        y: 67
+        x: 128
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1912,7 +1930,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 140d42dd11115f04b907d1d33e6679ec
+      spriteID: a8038c525eaf00b43b714b4c2346c037
       internalID: 7794854269873372831
       vertices: []
       indices: 
@@ -1922,8 +1940,8 @@ TextureImporter:
       name: Stars and Loves_73
       rect:
         serializedVersion: 2
-        x: 576
-        y: 67
+        x: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1933,7 +1951,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 358082922a7553644967f812e415dafd
+      spriteID: 63e97ac87efe1d04c85bd51eea823550
       internalID: 2841310270443604763
       vertices: []
       indices: 
@@ -1943,8 +1961,8 @@ TextureImporter:
       name: Stars and Loves_74
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
+        x: 256
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1954,7 +1972,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a284d24338184d45b2d90b027b391cd
+      spriteID: 7857fee77103f274390650374ecf6ac4
       internalID: -2774619540759958851
       vertices: []
       indices: 
@@ -1964,8 +1982,8 @@ TextureImporter:
       name: Stars and Loves_75
       rect:
         serializedVersion: 2
-        x: 64
-        y: 3
+        x: 320
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1975,7 +1993,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dea4c965a591e443ad963398204907f
+      spriteID: 8674c7bcbd5efe2459f3f6e517567d56
       internalID: -6724313543005981519
       vertices: []
       indices: 
@@ -1985,8 +2003,8 @@ TextureImporter:
       name: Stars and Loves_76
       rect:
         serializedVersion: 2
-        x: 128
-        y: 3
+        x: 384
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1996,7 +2014,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13410acb8884a3489bc25a5b3b1737e
+      spriteID: 9640c6e3ca547a84783ac61c0c404a2d
       internalID: 949736700349521217
       vertices: []
       indices: 
@@ -2006,8 +2024,8 @@ TextureImporter:
       name: Stars and Loves_77
       rect:
         serializedVersion: 2
-        x: 192
-        y: 3
+        x: 448
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2017,7 +2035,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0e13784d83ebe489cad568439e28ba
+      spriteID: 90c99986b8d69484fa631b73afb25801
       internalID: 2687455855220303077
       vertices: []
       indices: 
@@ -2027,8 +2045,8 @@ TextureImporter:
       name: Stars and Loves_78
       rect:
         serializedVersion: 2
-        x: 256
-        y: 3
+        x: 512
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2038,7 +2056,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31ac05c14c0bb114a843177c3d822a9b
+      spriteID: 77d4a7fb59294474c829553037a1475a
       internalID: -5894344567070425388
       vertices: []
       indices: 
@@ -2048,8 +2066,8 @@ TextureImporter:
       name: Stars and Loves_79
       rect:
         serializedVersion: 2
-        x: 320
-        y: 3
+        x: 576
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2059,7 +2077,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86e692bfe106b845b76c09c123a6896
+      spriteID: 7e593a6b9136d9a44ad084f1e97194c6
       internalID: -6459747843192926453
       vertices: []
       indices: 
@@ -2069,8 +2087,8 @@ TextureImporter:
       name: Stars and Loves_80
       rect:
         serializedVersion: 2
-        x: 384
-        y: 3
+        x: 0
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2080,7 +2098,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15822a33164d2a4da888d0c7022b089
+      spriteID: 7781f674e5c7f89408ece8f42493b8b3
       internalID: -4593771859453686137
       vertices: []
       indices: 
@@ -2090,8 +2108,8 @@ TextureImporter:
       name: Stars and Loves_81
       rect:
         serializedVersion: 2
-        x: 448
-        y: 3
+        x: 64
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2101,7 +2119,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 992ccd6ae1a3fa949ae6d99814e75666
+      spriteID: 8cd4167b8a6031c4e84621c31bf29a39
       internalID: 435184320607740568
       vertices: []
       indices: 
@@ -2111,8 +2129,8 @@ TextureImporter:
       name: Stars and Loves_82
       rect:
         serializedVersion: 2
-        x: 512
-        y: 3
+        x: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2122,7 +2140,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca4a292c037fb5429d8f7fbbe189222
+      spriteID: 3d2b6ebe42c580f468f222b4244a09ac
       internalID: 3927215647136428591
       vertices: []
       indices: 
@@ -2132,8 +2150,8 @@ TextureImporter:
       name: Stars and Loves_83
       rect:
         serializedVersion: 2
-        x: 576
-        y: 3
+        x: 192
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2143,8 +2161,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b57690936978b43baf01dba5a59b0b
+      spriteID: 4d7763427cecc034aa98b2ce1891c402
       internalID: -4949061047157041132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b063138af88f4e889d62d7966131d
+      internalID: -8662723157131636284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5639adc6d12b8642b8f12ea28077aa8
+      internalID: -5571252336062646441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e21dab554edf45a43c80c98cd0626
+      internalID: -7570277731036392817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e4f6e7ac30b83438f9c46286f8febe
+      internalID: -2231453455005112786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ff2ef6d01cd94bafe797914bbe896
+      internalID: 5524179118388788455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars and Loves_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f9d570f2db0654ebf966687f2fc95a
+      internalID: -8425956426416212198
       vertices: []
       indices: 
       edges: []

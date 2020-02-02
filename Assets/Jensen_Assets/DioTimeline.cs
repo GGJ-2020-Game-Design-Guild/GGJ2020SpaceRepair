@@ -9,11 +9,15 @@ public class DioTimeline : MonoBehaviour
     public int globalDio = 0;
     public AudioClip newM;
 
+    public int spouceNum;
+
     public void ReadInReady()
     {
         jsonScript = FindObjectOfType<ReadInDialogue>();
         marriageMeter = FindObjectOfType<MarriageMeter>();
-       // Debug.Log(jsonScript.dialogues.Length);
+
+        spouceNum = Random.Range(1, 4);
+        // Debug.Log(jsonScript.dialogues.Length);
         Invoke("changeDio", jsonScript.dialogues[globalDio].time);
     }
 
