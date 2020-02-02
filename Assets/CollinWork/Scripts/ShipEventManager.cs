@@ -39,5 +39,6 @@ public class ShipEventManager : MonoBehaviour
         assignedPart = shipParts[Random.Range(0, shipParts.Count)];
         assignedItem = shipItems[Random.Range(0, shipItems.Count)];
         assignedTool = tools[Random.Range(0, tools.Count)];
+        assignedPart.GetComponent<ShipPart>().damage();
     }
 }
