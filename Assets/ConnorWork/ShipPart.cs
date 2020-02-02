@@ -104,13 +104,10 @@ public class ShipPart : Interactable
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.name);
-
         if (requiredItem == collision.gameObject)
         {
             hasItem = true;
             collision.gameObject.SetActive(false);
-            Debug.Log("Henlo BitchAss");
         }
 
     }
