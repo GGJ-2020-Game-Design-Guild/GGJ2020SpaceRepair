@@ -23,10 +23,10 @@ public class Tool : Item
             pi.setItem(this);
             gameObject.SetActive(false);
 
-            Debug.Log($"Obtained Tool: {this.name}");
+          //  Debug.Log($"Obtained Tool: {this.name}");
         }
 
         else
-            Debug.Log("Cannot pick up another object...");
+          //  Debug.Log("Cannot pick up another object...");
     }
 }

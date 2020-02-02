@@ -1882,7 +1882,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 576
-        width: 64
+        width: 192
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1903,7 +1903,7 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 576
-        width: 64
+        width: 191
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2544,111 +2544,6 @@ TextureImporter:
       bones: []
       spriteID: a5b5385b50b37054ba4ae657d89fa2ba
       internalID: -5469979900225186611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_THISONE_55
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 576
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b86be2565520e8458588b641ba0b32c
-      internalID: -7861963438161399727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_THISONE_59
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4679858f30f989241b1c96aa70c44aa2
-      internalID: 1904351265256290263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_THISONE_60
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 576
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51707c9b3aa2340499b04f57b53997dd
-      internalID: -230122799298340092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_THISONE_61
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7dd14b659727724082ffb6832bab2c8
-      internalID: 4502637807356409513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_gamejam_THISONE_65
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 937f89177414f3e438d7356d8a0f7dd4
-      internalID: 4766737300141605402
       vertices: []
       indices: 
       edges: []

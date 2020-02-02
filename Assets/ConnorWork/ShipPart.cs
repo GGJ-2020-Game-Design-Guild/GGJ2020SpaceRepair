@@ -21,7 +21,10 @@ public class ShipPart : Interactable
     {
         health = MAX_HEALTH;
         // Debug.Log($"Required Item: {requiredItem}, Required Tool: {requiredTool}");
-        gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+        if (spriteList.Length > 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+        }
         InvokeRepeating("changeBool", 0, 2);
     }
 
@@ -37,39 +40,42 @@ public class ShipPart : Interactable
             }
         }
 
-        if (health > 50)
+        if (spriteList.Length > 0)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
-        }
-
-        if (health <= 50)
-        {
-            if (spriteList.Length == 4)
+            if (health > 50)
             {
-                if (animBool)
+                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            }
+
+            if (health <= 50)
+            {
+                if (spriteList.Length == 4)
+                {
+                    if (animBool)
+                    {
+                        gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+                    }
+                    else
+                    {
+                        gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
+                    }
+                }
+                else
                 {
                     gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+                }
+            }
+
+            if (health <= 0)
+            {
+                if (spriteList.Length == 4)
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[3];
                 }
                 else
                 {
                     gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
                 }
-            }
-            else
-            {
-                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
-            }
-        }
-
-        if (health <= 0)
-        {
-            if (spriteList.Length == 4)
-            {
-                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[3];
-            }
-            else
-            {
-                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
             }
         }
     }
