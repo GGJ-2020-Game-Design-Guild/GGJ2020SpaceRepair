@@ -9,7 +9,7 @@ public class TypeWriterEffect : MonoBehaviour {
     public float delay = 0.1f;
 	public string fullText;
 	private string currentText = "";
-    public AudioClip speech;
+    //public AudioClip speech;
     private bool question = false;
     private int correctResponse;
     private bool pointsAdded = false;
@@ -133,7 +133,7 @@ public class TypeWriterEffect : MonoBehaviour {
         
 
         StartCoroutine(ShowText());
-        AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
+       // AudioSource.PlayClipAtPoint(speech, gameObject.transform.position, 2.0f);
     }
 
     private void Update()
