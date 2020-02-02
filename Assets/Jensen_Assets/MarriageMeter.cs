@@ -5,7 +5,7 @@ using UnityEngine;
 public class MarriageMeter : MonoBehaviour
 {
     public int marriageMeter = 0;
-    public GameObject text;
+    ///public GameObject text;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +30,6 @@ public class MarriageMeter : MonoBehaviour
             }
         }
 
-        text.GetComponent<UnityEngine.UI.Text>().text = marriageMeter.ToString();
+       /// text.GetComponent<UnityEngine.UI.Text>().text = marriageMeter.ToString();
     }
 }
