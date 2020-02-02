@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShipPart : Interactable
 {
@@ -34,16 +35,23 @@ public class ShipPart : Interactable
 
     override public void interact(PlayerInventory pi) {
 
-        if (pi.item == requiredTool && hasItem)
+        if (pi.item == requiredTool && hasItem && health > 0)
         {
             health = MAX_HEALTH;
         }
     }
 
     public void damage() {
+        if (health <= 0) {
+            return;
+        }
         health -= 10;
         if (health <= 0) {
-            //something bad
+            LevelGlobal.broken++;
+            if (LevelGlobal.broken >= 3) {
+                LevelGlobal.LevelText = "Despite your best efforts, your ship was destroyed and you never made it to your concert";
+                SceneManager.LoadSceneAsync("ending");
+            }
         }
     }
 
