@@ -64,13 +64,32 @@ public class PlayerInventory : MonoBehaviour
             interactCollider.transform.localPosition = new Vector3(-1, 0, 0);
         }
 
-        if (Input.GetButtonDown("Jump")) {
-            interact();
-        }
-        if (Input.GetButtonDown("Fire1"))
+        if (item == null)
         {
-            drop();
+            if (Input.GetButtonDown("Jump"))
+            {
+                interact();
+            }
         }
+        else if (item.gameObject.tag.Contains("Tool") || item.gameObject.tag.Contains("WalkTalk"))
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                interact();
+            }
+            if (Input.GetButtonDown("Jump"))
+            {
+                drop();
+            }
+        }
+        else
+        {
+            if (Input.GetButtonDown("Jump"))
+            {
+                drop();
+            }
+        }
+        
     }
 
     public void setItem(Item i) {
