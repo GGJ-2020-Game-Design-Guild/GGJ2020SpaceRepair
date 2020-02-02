@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ConnorWork/ending.unity
     guid: 337fc2007969fc843acdac89995bbc61
+  - enabled: 1
+    path: Assets/Scenes/MainShip.unity
+    guid: 84a9f7aefdda32d4e8e9604c9e248c82
   m_configObjects: {}
