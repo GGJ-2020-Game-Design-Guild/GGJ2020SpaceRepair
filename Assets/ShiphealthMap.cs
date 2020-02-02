@@ -20,11 +20,11 @@ public class ShiphealthMap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for(int i = 0; i<ShipManager.GetComponent<ShipEventManager>().shipParts.Count; i++)
+        /*for(int i = 0; i<ShipManager.GetComponent<ShipEventManager>().shipParts.Count; i++)
         {
             dummyInt = ShipManager.GetComponent<ShipEventManager>().shipParts[i].GetComponent<ShipPart>().health;
             ShipPartsDisplay[i].GetComponent<DisplayHealth>().health = dummyInt;
-        }
+        }*/
 
     }
 }

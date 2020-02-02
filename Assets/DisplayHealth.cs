@@ -39,5 +39,7 @@ public class DisplayHealth : MonoBehaviour
         color.r = color1.r + (color1.r - color2.r) * (health % 50) / 50.0f;
         color.g = color1.g + (color1.g - color2.g) * (health % 50) / 50.0f;
         color.b = color1.b + (color1.b - color2.b) * (health % 50) / 50.0f;
+
+        gameObject.GetComponent<SpriteRenderer>().color = color;
     }
 }
