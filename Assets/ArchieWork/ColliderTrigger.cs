@@ -28,7 +28,7 @@ public class ColliderTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (interactable.GetComponent<Collider2D>().Equals(collision)) {
+        if (interactable.GetComponent<Collider2D>() ==  collision) {
             interactable = null;
         }
     }

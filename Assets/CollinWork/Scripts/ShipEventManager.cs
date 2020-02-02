@@ -10,6 +10,10 @@ public class ShipEventManager : MonoBehaviour
     public List<GameObject> shipItems;
     public List<GameObject> tools;
 
+    public GameObject assignedPart;
+    public GameObject assignedItem;
+    public GameObject assignedTool;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +36,8 @@ public class ShipEventManager : MonoBehaviour
 
     public void damageSelection()
     {
-       // Debug.Log(shipMachinery[Random.Range(0, shipMachinery.Count)]);
-      //  Debug.Log(shipParts[Random.Range(0, shipParts.Count)]);
-      //  Debug.Log(tools[Random.Range(0, tools.Count)]);
+        assignedPart = shipParts[Random.Range(0, shipParts.Count)];
+        assignedItem = shipItems[Random.Range(0, shipItems.Count)];
+        assignedTool = tools[Random.Range(0, tools.Count)];
     }
 }

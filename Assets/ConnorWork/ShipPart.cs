@@ -9,19 +9,21 @@ public class ShipPart : Interactable
 
     public bool hasItem = false;
 
-    public Item requiredItem;
-    public Tool requiredTool;
+    public GameObject requiredItem;
+    public GameObject requiredTool;
     
     // Start is called before the first frame update
     void Start()
     {
-        health = MAX_HEALTH;   
+        health = MAX_HEALTH;
+        Debug.Log($"Required Item: {requiredItem}, Required Tool: {requiredTool}");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        requiredItem = FindObjectOfType<ShipEventManager>().assignedItem;
+        requiredTool = FindObjectOfType<ShipEventManager>().assignedTool;
     }
 
     override public void interact(PlayerInventory pi) {
@@ -39,12 +41,15 @@ public class ShipPart : Interactable
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == requiredItem)
+        Debug.Log(collision.gameObject.name);
+
+        if (requiredItem == collision.gameObject)
         {
-            Destroy(collision.gameObject);
             hasItem = true;
+            collision.gameObject.SetActive(false);
+            Debug.Log("Henlo BitchAss");
         }
 
     }
