@@ -3,127 +3,127 @@
 		{
 			"type":"statement",
 			"text":"Honey? What are you doing?? Get back here!!",
-			"time":4
+			"time":12
 		},
 		{
 			"type":"statement",
 			"text":"I cannot believe you just up and left like that!",
-			"time":5
+			"time":15
 		},
 		
 			"type":"statement",
 			"text":"Is Space Journey really that worth it??",
-			"time":5
+			"time":10
 		},
 		{
 			"type":"statement",
 			"text":"Was it me? Did I do something wrong?",
-			"time":5
+			"time":17
 		},
 		{
 			"type":"statement",
 			"text":"Where did we go so wrong? Why won't you come back?",
-			"time":5
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"Things have been so good together, and then you go and do this?",
-			"time":5
+			"time":18
 		},
 		{
 			"type":"statement",
 			"text":"WHY",
-			"time":5
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"Wait..",
-			"time":7
+			"time":11
 		},
 		{
 			"type":"statement",
 			"text":"Hold up...",
-			"time":6
+			"time":14
 		},
 		{
 			"type":"statement",
 			"text":"You're flying through hyperspace far too fast, you're going to get hurt.",
-			"time":6
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"I'm looking at your flight plan, dear you're going to get youself killed!!",
-			"time":5
+			"time":15
 		},
 		{
 			"type":"statement",
 			"text":"Please... Come back...",
-			"time":5
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"...",
-			"time":5
+			"time":15
 		},
 		{
 			"type":"statement",
 			"text":"Fine Then!",
-			"time":4
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"If you won't stop this ridiculous escapade, I will!",
-			"time":5
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"Hello? BlackBark's Pirate Adventure n' Bounty Hunting Co.?",
-			"time":7
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"This is them! Woof!",
-			"time":5
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"My spouse is going to get themselves killed in hyperspace! Please save them!!!",
-			"time":6
+			"time":15
 		},
 		{
 			"type":"statement",
 			"text":"Woof! We'll go fetch!!!",
-			"time":5
+			"time":21
 		},
 		{
 			"type":"statement",
 			"text":"How quickly Customer?",
-			"time":5
+			"time":13
 		},
 		{
 			"type":"statement",
 			"text":"As fast as possible!!",
-			"time":5
+			"time":11
 		},
 		{
 			"type":"statement",
 			"text":"Can do! Woof!",
-			"time":3
+			"time":14
 		},
 		{
 			"type":"statement",
 			"text":"(Time passes)",
-			"time":3
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"You see how dangerous it is out there!",
-			"time":5
+			"time":10
 		},
 		{
 			"type":"statement",
 			"text":"...",
-			"time":7
+			"time":15
 		},
 		{
 			"type":"question",
@@ -131,102 +131,102 @@
 			"incorrectAnswerResponse": "Well?",
 			"correctAnswerResponse": "Of course it was, uhhh whooops.",
 			"answer":1,
-			"time":7
+			"time":14
 		},
 		{
 			"type":"statement",
 			"text":"Do you remember when we first met?",
-			"time":5
+			"time":17
 		},
 		{
 			"type":"statement",
 			"text":"It was such a beautiful day...",
-			"time":3
+			"time":18
 		},
 		{
 			"type":"statement",
 			"text":"I remember it like it was yesterday",
-			"time":3
+			"time":15
 		},
 		{
 			"type":"statement",
 			"%Date% , clear skies, sunny weather.",
-			"time":8
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"The picnic was wonderful.",
-			"time":4
+			"time":19
 		},
 		{
 			"type":"statement",
 			"text":"...",
-			"time":3
+			"time":14
 		},
 		{
 			"type":"statement",
 			"text":"Please come back",
-			"time":4
+			"time":17
 		},
 		{
 			"type":"statement",
 			"text":"You've been gone for all of... A few hours?",
-			"time":3
+			"time":15
 		},
 		{
 			"type":"statement",
 			"text":"%Date%, Oh. Such a wonderful day... at the time, one of the best days of my life..."
-			"time":6
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"But I'm so worried about how you are doing.",
-			"time":5
+			"time":15
 		},
 		{
 			"type":"statement",
 			"text":"We've done so much together.",
-			"time":5
+			"time":20
 		},
 		{
 			"type":"statement",
 			"text":"Do you even care?",
-			"time":3
+			"time":11
 		},
 		{
 			"type":"statement",
 			"text":"That's why you've gone isn't it?",
-			"time":3
+			"time":14
 		},
 		{
 			"type":"statement",
 			"text":"You've left because you don't care!!",
-			"time":3
+			"time":19
 		},
 		{
 			"type":"statement",
 			"text":"You absolute monster!",
-			"time":5
+			"time":15
 		},
 		{
 			"type":"statement"
 			"text":"That day you gave me those %Color% flowers... those colors were magnificent",
-			"time": 5
+			"time": 14
 		},
 		{
 			"type":"statement",
 			"text":"...",
-			"time":4
+			"time":16
 		},
 		{
 			"type":"statement",
 			"text":"Maybe you aren't a monster.",
-			"time":5
+			"time":18
 		},
 		{
 			"type":"statement",
 			"text":"Event%, isn't that what day it is where you are?",
-			"time":3
+			"time":14
 		},
 		{
 			"type":"question",
@@ -234,7 +234,7 @@
 			"incorrectAnswerResponse":"Of course you wouldn't remember!",
 			"correctAnswerResponse":"Maybe you do care.",
 			"answer":1,
-			"time":10
+			"time":11
 		},
 		{
 			"type":"question",
@@ -242,7 +242,7 @@
 			"incorrectAnswerResponse":"Ugh, I hate that color!",
 			"correctAnswerResponse":"You do remember!",
 			"answer":1,
-			"time":6
+			"time":14
 		},
 		{
 			"type":"question",
@@ -250,7 +250,7 @@
 			"incorrectAnswerResponse":"Unbelievable!!!",
 			"correctAnswerResponse":"Right, of course you would remember, sorry.",
 			"answer":1,
-			"time":8
+			"time":18
 		},
 		{
 			"type":"question",
@@ -258,5 +258,5 @@
 			"incorrectAnswerResponse":"How clueless could you be?!",
 			"correctAnswerResponse":"Wait... Oh that's right it's nothing.",
 			"answer":0,1,2,
-			"time": 4
+			"time": 14
 		}
