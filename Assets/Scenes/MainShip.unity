@@ -14365,6 +14365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalDio: 0
+  newM: {fileID: 8300000, guid: ea2159ab9413bdd4ea736a0c8e151cbf, type: 3}
 --- !u!114 &392103912
 MonoBehaviour:
   m_ObjectHideFlags: 0
