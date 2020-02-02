@@ -100,10 +100,12 @@ public class ShipPart : Interactable
                 SceneManager.LoadSceneAsync("ending");
             }
         }
+        hasItem = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("Got item at all");
         if (requiredItem == collision.gameObject)
         {
             hasItem = true;
