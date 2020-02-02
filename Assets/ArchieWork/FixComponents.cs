@@ -6,8 +6,8 @@ public class FixComponents : MonoBehaviour
 {
 
     public bool hasItem = false;
-    public GameObject requiredItem;
-    public GameObject requiredTool;
+    public Item requiredItem;
+    public Tool requiredTool;
 
     // Start is called before the first frame update
     void Start()

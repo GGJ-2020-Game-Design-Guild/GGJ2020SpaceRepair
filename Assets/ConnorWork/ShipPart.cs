@@ -10,8 +10,8 @@ public class ShipPart : Interactable
 
     public bool hasItem = false;
 
-    public GameObject requiredItem;
-    public GameObject requiredTool;
+    public Item requiredItem;
+    public Tool requiredTool;
     public Sprite[] spriteList;
 
     bool animBool = false;
@@ -82,9 +82,11 @@ public class ShipPart : Interactable
 
     override public void interact(PlayerInventory pi) {
 
-        if (pi.item == requiredTool && hasItem && health > 0)
+        if (pi.item.name.Equals(requiredTool.name) && hasItem && health > 0)
         {
             health = MAX_HEALTH;
+            requiredTool = null;
+            requiredItem = null;
         }
     }
 
@@ -106,7 +108,7 @@ public class ShipPart : Interactable
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Got item at all");
-        if (requiredItem.name.Equals(collision.GetComponent<Item>().name))
+        if (requiredItem && requiredItem.name.Equals(collision.GetComponent<Item>().name))
         {
             hasItem = true;
             collision.gameObject.SetActive(false);

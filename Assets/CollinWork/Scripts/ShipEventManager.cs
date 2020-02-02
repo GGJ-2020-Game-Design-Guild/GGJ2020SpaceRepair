@@ -7,12 +7,12 @@ public class ShipEventManager : MonoBehaviour
 {
     // Lists of ship machinery, parts, and tools.
     public List<GameObject> shipParts;
-    public List<GameObject> shipItems;
-    public List<GameObject> tools;
+    public List<Item> shipItems;
+    public List<Tool> tools;
 
     public GameObject assignedPart;
-    public GameObject assignedItem;
-    public GameObject assignedTool;
+    public Item assignedItem;
+    public Tool assignedTool;
 
     // Start is called before the first frame update
     void Start()
