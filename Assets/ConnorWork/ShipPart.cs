@@ -13,6 +13,8 @@ public class ShipPart : Interactable
     public GameObject requiredItem;
     public GameObject requiredTool;
     public Sprite[] spriteList;
+
+    bool animBool = false;
     
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ public class ShipPart : Interactable
         health = MAX_HEALTH;
         // Debug.Log($"Required Item: {requiredItem}, Required Tool: {requiredTool}");
         gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+        InvokeRepeating("changeBool", 0, 2);
     }
 
     // Update is called once per frame
@@ -41,12 +44,33 @@ public class ShipPart : Interactable
 
         if (health <= 50)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+            if (spriteList.Length == 4)
+            {
+                if (animBool)
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+                }
+                else
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
+                }
+            }
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+            }
         }
 
         if (health <= 0)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
+            if (spriteList.Length == 4)
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[3];
+            }
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[2];
+            }
         }
     }
 
@@ -83,6 +107,11 @@ public class ShipPart : Interactable
             Debug.Log("Henlo BitchAss");
         }
 
+    }
+
+    private void changeBool()
+    {
+        animBool = !animBool;
     }
 
 }
