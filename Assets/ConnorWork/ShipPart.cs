@@ -43,8 +43,8 @@ public class ShipPart : Interactable
     {
         if (collision.gameObject == requiredItem)
         {
-            hasItem = true;
             Destroy(collision.gameObject);
+            hasItem = true;
         }
 
     }
