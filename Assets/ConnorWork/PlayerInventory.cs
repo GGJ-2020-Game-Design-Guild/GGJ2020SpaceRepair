@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -10,10 +11,12 @@ public class PlayerInventory : MonoBehaviour
     public int facing;
     public BoxCollider2D interactCollider;
     public float throwForce = 1000;
+    public Image inv;
     // Start is called before the first frame update
     void Start()
     {
         facing = 0;
+        inv.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -96,6 +99,8 @@ public class PlayerInventory : MonoBehaviour
         item = i;
         heldItemSprite = i.sprite;
         heldItemName = i.name;
+        inv.sprite = i.GetComponent<SpriteRenderer>().sprite;
+        inv.gameObject.SetActive(true);
     }
 
     public void interact() {
@@ -113,6 +118,8 @@ public class PlayerInventory : MonoBehaviour
         item.transform.position = interactCollider.transform.position;
         item.gameObject.SetActive(true);
         Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+        //inv.sprite = i.GetComponent<SpriteRenderer>().sprite;
+        inv.gameObject.SetActive(false);
 
         //UP
         if (facing == 0)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIMove : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class UIMove : MonoBehaviour
     public float hidden;
     public bool show;
     public const float speed = 10;
+
+    public Image tool;
+    public Image item;
     private RectTransform rtrans;
     // Start is called before the first frame update
     void Start()

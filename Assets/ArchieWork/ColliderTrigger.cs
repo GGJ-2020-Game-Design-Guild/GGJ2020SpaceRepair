@@ -5,6 +5,7 @@ using UnityEngine;
 public class ColliderTrigger : MonoBehaviour
 {
     public Interactable interactable;
+    public UIMove ui;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,21 @@ public class ColliderTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ui.show = false;
+        if (interactable) {
+            if (interactable is ShipPart)
+            {
+                ShipPart i = (ShipPart)interactable;
+                if (i.requiredItem != null)
+                {
+                    ui.item.sprite = i.requiredItem.GetComponent<SpriteRenderer>().sprite;
+                    ui.tool.sprite = i.requiredTool.GetComponent<SpriteRenderer>().sprite;
+                    ui.show = true;
+                }
+            }
+
+
+        }
         
     }
 
