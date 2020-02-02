@@ -93,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
         if(vertMovement == 0)
         { 
             animator.SetBool("walkDown", false);
-            animator.SetBool("walkUp", false);
+            animator.SetBool("walkUp", false);  
         }
 
         //set the rigidBody velocity to those values for x and y, and z to 0
