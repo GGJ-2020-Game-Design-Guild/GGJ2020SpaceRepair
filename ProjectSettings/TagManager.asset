@@ -15,6 +15,7 @@ TagManager:
   - Tool3
   - Tool4
   - Tool5
+  - Item3
   layers:
   - Default
   - TransparentFX
