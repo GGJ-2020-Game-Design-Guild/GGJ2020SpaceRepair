@@ -108,10 +108,15 @@ public class ShipPart : Interactable
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Got item at all");
-        if (requiredItem && requiredItem.name.Equals(collision.GetComponent<Item>().name))
+        if (collision.GetComponent<Item>())
         {
-            hasItem = true;
-            collision.gameObject.SetActive(false);
+
+
+            if (requiredItem && requiredItem.name.Equals(collision.GetComponent<Item>().name))
+            {
+                hasItem = true;
+                collision.gameObject.SetActive(false);
+            }
         }
 
     }

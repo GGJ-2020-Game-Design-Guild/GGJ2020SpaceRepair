@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class EndingScript : MonoBehaviour
 {
-    public TextMeshPro text;
+    public GameObject text;
     // Start is called before the first frame update
     void Start()
     {
-        text.text = LevelGlobal.LevelText;
+        
+        text.GetComponent<TextMeshPro>().text = LevelGlobal.LevelText;
     }
 
     // Update is called once per frame

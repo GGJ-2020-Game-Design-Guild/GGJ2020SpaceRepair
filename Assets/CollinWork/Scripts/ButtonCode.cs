@@ -8,11 +8,12 @@ public class ButtonCode : MonoBehaviour
     // Canvases for opening and closing the credits and the main menu.
     public Canvas creditsCanvas;
     public Canvas menuCanvas;
+    public string levelToLoad;
 
     // Function that starts the game when you hit the play button.
     public void OpenGame()
     {
-        SceneManager.LoadSceneAsync("MainShip");
+        SceneManager.LoadSceneAsync(levelToLoad);
     }
 
     // Function that quits the game when you hit the quit button.
